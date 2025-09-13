@@ -1,2 +1,0 @@
-# Trust_MQTT
-
