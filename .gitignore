@@ -1,0 +1,5 @@
+*.log
+logs/
+*.out
+*.zip
+*.csv
