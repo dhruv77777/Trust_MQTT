@@ -1,0 +1,136 @@
+services:
+  # ---------- Mosquitto Brokers ----------
+  broker0:
+    image: eclipse-mosquitto:2
+    container_name: broker0
+    volumes:
+      - ./config/broker0.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b0.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b0.txt:rw
+    ports:
+      - "1883:1883"
+
+  broker1:
+    image: eclipse-mosquitto:2
+    container_name: broker1
+    volumes:
+      - ./config/broker1.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b1.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b1.txt:rw
+    ports:
+      - "1884:1884"
+
+  broker2:
+    image: eclipse-mosquitto:2
+    container_name: broker2
+    volumes:
+      - ./config/broker2.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b2.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b2.txt:rw
+    ports:
+      - "1885:1885"
+
+  broker3:
+    image: eclipse-mosquitto:2
+    container_name: broker3
+    volumes:
+      - ./config/broker3.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b3.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b3.txt:rw
+    ports:
+      - "1886:1886"
+
+  broker4:
+    image: eclipse-mosquitto:2
+    container_name: broker4
+    volumes:
+      - ./config/broker4.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b4.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b4.txt:rw
+    ports:
+      - "1887:1887"
+
+  broker5:
+    image: eclipse-mosquitto:2
+    container_name: broker5
+    volumes:
+      - ./config/broker5.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b5.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b5.txt:rw
+    ports:
+      - "1888:1888"
+
+  broker6:
+    image: eclipse-mosquitto:2
+    container_name: broker6
+    volumes:
+      - ./config/broker6.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b6.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b6.txt:rw
+    ports:
+      - "1889:1889"
+
+  broker7:
+    image: eclipse-mosquitto:2
+    container_name: broker7
+    volumes:
+      - ./config/broker7.conf:/mosquitto/config/mosquitto.conf
+      - ./logs:/home/dhruv/Desktop/Best_Signer_Model/logs
+      - ./mosquitto/pid:/mosquitto/data
+      - ./mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so:ro
+      - ./mosquitto/plugins/payload-modification/acl.txt:/mosquitto/plugins/payload-modification/acl.txt:ro
+      - ./mosquitto/plugins/payload-modification/trust_history/trust_store_b7.txt:/mosquitto/plugins/payload-modification/trust_history/trust_store_b7.txt:rw
+    ports:
+      - "1890:1890"
+
+  # ---------- Prometheus ----------
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  # ---------- Grafana ----------
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+  # ---------- cAdvisor ----------
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    privileged: true

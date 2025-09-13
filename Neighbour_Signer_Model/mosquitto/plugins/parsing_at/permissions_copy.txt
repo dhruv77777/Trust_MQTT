@@ -1,0 +1,71 @@
+# --- Ground Floor: B0 (C0,C1), B7 (C14,C15) ---
+
+C0 PUB floor/ground/client0
+C0 SUB floor/ground/client0
+C15 SUB floor/ground/client0     # Communication: C0 → C15
+
+C1 PUB floor/ground/client1
+C1 SUB floor/ground/client1
+C14 SUB floor/ground/client1     # Communication: C1 → C14
+
+C14 PUB floor/ground/client14
+C14 SUB floor/ground/client14
+C0 SUB floor/ground/client14     # Communication: C14 → C0
+
+C15 PUB floor/ground/client15
+C15 SUB floor/ground/client15
+C1 SUB floor/ground/client15     # Communication: C15 → C1
+
+# --- First Floor: B1 (C2,C3), B3 (C6,C7) ---
+
+C2 PUB floor/first/client2
+C2 SUB floor/first/client2
+C7 SUB floor/first/client2       # C2 → C7
+
+C3 PUB floor/first/client3
+C3 SUB floor/first/client3
+C6 SUB floor/first/client3       # C3 → C6
+
+C6 PUB floor/first/client6
+C6 SUB floor/first/client6
+C2 SUB floor/first/client6       # C6 → C2
+
+C7 PUB floor/first/client7
+C7 SUB floor/first/client7
+C3 SUB floor/first/client7       # C7 → C3
+
+# --- Second Floor: B2 (C4,C5), B6 (C12,C13) ---
+
+C4 PUB floor/second/client4
+C4 SUB floor/second/client4
+C13 SUB floor/second/client4     # C4 → C13
+
+C5 PUB floor/second/client5
+C5 SUB floor/second/client5
+C12 SUB floor/second/client5     # C5 → C12
+
+C12 PUB floor/second/client12
+C12 SUB floor/second/client12
+C5 SUB floor/second/client12     # C12 → C5
+
+C13 PUB floor/second/client13
+C13 SUB floor/second/client13
+C4 SUB floor/second/client13     # C13 → C4
+
+# --- Third Floor: B4 (C8,C9), B5 (C10,C11) ---
+
+C8 PUB floor/third/client8
+C8 SUB floor/third/client8
+C11 SUB floor/third/client8      # C8 → C11
+
+C9 PUB floor/third/client9
+C9 SUB floor/third/client9
+C10 SUB floor/third/client9      # C9 → C10
+
+C10 PUB floor/third/client10
+C10 SUB floor/third/client10
+C9 SUB floor/third/client10      # C10 → C9
+
+C11 PUB floor/third/client11
+C11 SUB floor/third/client11
+C8 SUB floor/third/client11      # C11 → C8
