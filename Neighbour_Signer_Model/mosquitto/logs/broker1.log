@@ -1,0 +1,1574 @@
+1755023612: Warning: File /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker1.log has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker1.log`.
+1755023612: Warning: File /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker1.log owner is not dhruv. Future versions will refuse to load this file.To fix this, use `chown dhruv /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker1.log`.
+1755023612: Warning: File /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker1.log group is not dhruv. Future versions will refuse to load this file.
+1755023612: mosquitto version 2.0.21 starting
+1755023612: Config loaded from /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/brokers/broker1.conf.
+1755023612: Loading plugin: /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so
+1755023612: [PLUGIN][B1] --- Trust-based plugin initializing (V4.1 - Standalone Mode w/Logs) ---
+1755023612: [PLUGIN][B1] [INIT] ✅ Plugin initialization complete.
+1755023612: Opening ipv4 listen socket on port 1884.
+1755023612: Opening ipv6 listen socket on port 1884.
+1755023612: Bridge local.dhruvubuntu.b1_to_b3 doing local SUBSCRIBE on topic #
+1755023612: Connecting bridge b1_to_b3 (127.0.0.1:1886)
+1755023612: Bridge dhruvubuntu.b1_to_b3 sending CONNECT
+1755023612: Bridge local.dhruvubuntu.b1_to_b4 doing local SUBSCRIBE on topic #
+1755023612: Connecting bridge b1_to_b4 (127.0.0.1:1887)
+1755023612: Bridge dhruvubuntu.b1_to_b4 sending CONNECT
+1755023612: mosquitto version 2.0.21 running
+1755023612: Client local.dhruvubuntu.b1_to_b3 closed its connection.
+1755023612: Client local.dhruvubuntu.b1_to_b4 closed its connection.
+1755023612: New connection from 127.0.0.1:58676 on port 1884.
+1755023612: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023612: New bridge connected from 127.0.0.1:58676 as dhruvubuntu.b0_to_b1 (p2, c0, k60).
+1755023612: Will message specified (1 bytes) (r1, q1).
+1755023612: 	$SYS/broker/connection/dhruvubuntu.b0_to_b1/state
+1755023612: Sending CONNACK to dhruvubuntu.b0_to_b1 (0, 0)
+1755023612: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q1, r1, m1, '$SYS/broker/connection/dhruvubuntu.b0_to_b1/state', ... (1 bytes))
+1755023612: Sending PUBACK to dhruvubuntu.b0_to_b1 (m1, rc0)
+1755023612: Received UNSUBSCRIBE from dhruvubuntu.b0_to_b1
+1755023612: 	#
+1755023612: dhruvubuntu.b0_to_b1 #
+1755023612: Sending UNSUBACK to dhruvubuntu.b0_to_b1
+1755023619: Bridge local.dhruvubuntu.b1_to_b3 doing local SUBSCRIBE on topic #
+1755023619: Connecting bridge b1_to_b3 (127.0.0.1:1886)
+1755023619: Bridge dhruvubuntu.b1_to_b3 sending CONNECT
+1755023619: Received CONNACK on connection local.dhruvubuntu.b1_to_b3.
+1755023619: Bridge local.dhruvubuntu.b1_to_b3 sending UNSUBSCRIBE (Mid: 2, Topic: #)
+1755023619: Received PUBACK from local.dhruvubuntu.b1_to_b3 (Mid: 1, RC:0)
+1755023619: Received UNSUBACK from local.dhruvubuntu.b1_to_b3
+1755023620: Bridge local.dhruvubuntu.b1_to_b4 doing local SUBSCRIBE on topic #
+1755023620: Connecting bridge b1_to_b4 (127.0.0.1:1887)
+1755023620: Bridge dhruvubuntu.b1_to_b4 sending CONNECT
+1755023620: Received CONNACK on connection local.dhruvubuntu.b1_to_b4.
+1755023620: Bridge local.dhruvubuntu.b1_to_b4 sending UNSUBSCRIBE (Mid: 2, Topic: #)
+1755023620: Received PUBACK from local.dhruvubuntu.b1_to_b4 (Mid: 1, RC:0)
+1755023620: Received UNSUBACK from local.dhruvubuntu.b1_to_b4
+1755023621: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023621: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023621: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023621: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023621: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023621: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023621: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023621: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023622: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023632: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023632: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023632: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023632: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023632: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023632: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023632: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023632: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023632: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023642: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023643: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023643: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023643: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023643: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023643: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023643: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023643: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023643: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023652: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023654: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023654: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023654: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023654: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023654: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023654: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023654: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023654: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023662: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023665: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023665: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023665: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023665: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023665: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023665: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023665: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023665: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023672: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755023672: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755023672: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023676: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023676: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023676: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023676: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023676: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023676: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023676: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023676: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023679: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755023679: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755023680: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755023680: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755023682: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023687: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023687: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023687: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023687: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023687: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023687: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023687: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023687: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023692: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023698: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023698: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023698: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023698: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023698: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023698: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023698: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023698: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023702: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023709: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023709: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023709: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023709: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023709: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023709: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023709: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023709: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023712: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023720: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023720: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023720: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023720: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023720: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023720: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023720: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023720: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023722: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023731: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023731: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023731: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023731: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023731: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023731: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023731: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023731: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023732: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023732: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755023732: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755023739: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755023739: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755023740: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755023740: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755023742: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023742: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023742: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023742: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023742: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023742: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023742: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023742: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023742: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023752: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023753: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023753: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023753: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023753: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023753: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023753: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023753: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023753: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023762: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023764: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023764: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023764: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023764: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023764: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023764: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023764: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023764: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023772: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023775: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023775: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023775: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023775: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023775: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023775: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023775: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023775: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023782: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023786: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023786: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023786: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023786: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023786: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023786: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023786: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023786: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023792: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755023792: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755023792: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023797: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023797: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023797: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023797: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023797: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023797: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023797: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023797: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023799: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755023799: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755023800: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755023800: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755023802: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023809: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023809: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023809: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023809: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023809: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023809: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023809: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023809: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023812: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023820: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023820: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023820: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023820: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023820: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023820: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023820: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023820: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023822: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023831: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023831: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023831: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023831: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023831: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023831: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023831: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023831: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023832: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023842: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023842: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023842: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023842: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023842: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023842: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023842: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023842: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023842: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023852: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755023852: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755023852: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023853: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023853: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023853: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023853: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023853: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023853: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023853: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023853: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023859: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755023859: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755023860: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755023860: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755023862: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023864: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023864: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023864: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023864: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023864: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023864: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023864: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023864: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023872: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023875: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023875: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023875: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023875: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023875: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023875: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023875: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023875: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023882: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023886: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023886: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023886: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023886: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023886: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023886: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023886: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023886: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023892: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023897: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023897: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023897: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023897: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023897: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023897: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023897: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023897: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023902: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023908: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023908: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023908: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023908: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023908: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023908: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023908: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023908: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023912: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023912: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755023912: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755023919: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755023919: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755023919: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023919: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023919: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023919: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023919: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023919: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023919: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023919: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023920: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755023920: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755023922: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023930: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023930: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023930: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023930: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023930: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023930: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023930: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023930: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023932: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023941: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023941: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023941: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023941: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023941: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023941: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023941: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023941: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023942: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023952: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023955: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023955: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023955: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023955: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023955: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023955: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023955: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023955: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023962: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023966: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023966: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023966: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023966: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023966: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023966: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023966: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023966: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023972: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755023972: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755023972: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023977: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023977: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023977: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023977: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023977: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023977: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023977: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023977: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023979: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755023979: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755023980: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755023980: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755023982: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023988: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023988: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023988: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023988: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023988: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023988: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023988: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023988: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023992: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755023999: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023999: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755023999: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755023999: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755023999: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755023999: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755023999: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755023999: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024002: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024010: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024010: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024010: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024010: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024010: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024010: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024010: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024010: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024012: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024021: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024021: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024021: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024021: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024021: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024021: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024021: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024021: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024022: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024032: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024032: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024032: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024032: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024032: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024032: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024032: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024032: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024032: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024032: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024032: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024039: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024039: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024040: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024040: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024042: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024043: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024043: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024043: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024043: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024043: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024043: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024043: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024043: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024052: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024054: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024054: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024054: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024054: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024054: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024054: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024054: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024054: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024062: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024065: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024065: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024065: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024065: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024065: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024065: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024065: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024065: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024072: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024076: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024076: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024076: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024076: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024076: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024076: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024076: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024076: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024082: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024087: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024087: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024087: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024087: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024087: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024087: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024087: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024087: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024092: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024092: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024092: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024098: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024098: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024098: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024098: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024098: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024098: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024098: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024098: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024099: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024099: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024100: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024100: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024102: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024109: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024109: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024109: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024109: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024109: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024109: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024109: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024109: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024112: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024121: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024121: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024121: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024121: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024121: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024121: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024121: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024121: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024122: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024132: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024132: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024132: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024132: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024132: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024132: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024132: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024132: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024132: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024142: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024143: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024143: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024143: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024143: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024143: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024143: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024143: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024143: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024152: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024152: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024152: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024154: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024154: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024154: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024154: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024154: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024154: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024154: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024154: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024159: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024159: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024160: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024160: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024162: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024165: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024165: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024165: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024165: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024165: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024165: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024165: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024165: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024172: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024182: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024192: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024198: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024198: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024198: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024198: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024198: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024198: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024198: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024198: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024202: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024209: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024209: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024209: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024209: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024209: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024209: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024209: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024209: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024212: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024212: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024212: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024219: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024219: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024220: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024220: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024220: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024220: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024220: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024220: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024220: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024220: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024220: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024220: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024222: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024231: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024231: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024231: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024231: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024231: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024231: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024231: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024231: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024232: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024242: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024242: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024242: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024242: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024242: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024242: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024242: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024242: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024242: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024252: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024253: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024253: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024253: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024253: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024253: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024253: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024253: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024253: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024262: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024264: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024264: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024264: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024264: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024264: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024264: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024264: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024264: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024272: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024272: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024272: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024275: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024275: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024275: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024275: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024275: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024275: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024275: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024275: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024279: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024279: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024280: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024280: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024282: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024286: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024286: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024286: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024286: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024286: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024286: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024286: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024286: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024292: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024297: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024297: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024297: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024297: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024297: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024297: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024297: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024297: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024302: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024308: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024308: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024308: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024308: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024308: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024308: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024308: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024308: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024312: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024319: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024319: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024319: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024319: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024319: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024319: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024319: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024319: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024322: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024330: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024330: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024330: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024330: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024330: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024330: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024330: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024330: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024332: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024332: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024332: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024339: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024339: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024340: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024340: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024341: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024341: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024341: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024341: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024341: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024341: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024341: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024341: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024342: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024352: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024352: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024352: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024352: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024352: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024352: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024352: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024352: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024352: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024362: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024363: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024363: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024363: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024363: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024363: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024363: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024363: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024363: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024372: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024374: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024374: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024374: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024374: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024374: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024374: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024374: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024374: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024382: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024386: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024386: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024386: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024386: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024386: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024386: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024386: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024386: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024392: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024392: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024392: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024397: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024397: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024397: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024397: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024397: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024397: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024397: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024397: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024399: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024399: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024400: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024400: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024402: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024408: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024408: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024408: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024408: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024408: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024408: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024408: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024408: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024412: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024419: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024419: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024419: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024419: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024419: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024419: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024419: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024419: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024422: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024430: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024430: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024430: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024430: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024430: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024430: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024430: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024430: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024432: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024441: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024441: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024441: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024441: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024441: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024441: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024441: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024441: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024442: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024452: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024452: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024452: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024452: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024452: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024452: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024452: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024452: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024452: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024452: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024452: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024459: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024459: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024460: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024460: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024462: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024463: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024463: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024463: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024463: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024463: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024463: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024463: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024463: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024472: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024474: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024474: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024474: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024474: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024474: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024474: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024474: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024474: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024482: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024485: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024485: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024485: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024485: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024485: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024485: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024485: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024485: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024492: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024496: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024496: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024496: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024496: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024496: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024496: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024496: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024496: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024502: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024507: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024507: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024507: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024507: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024507: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024507: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024507: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024507: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024512: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024512: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024512: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024518: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024518: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024518: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024518: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024518: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024518: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024518: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024518: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024519: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024519: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024520: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024520: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024522: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024529: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024529: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024529: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024529: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024529: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024529: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024529: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024529: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024532: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024540: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024540: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024540: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024540: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024540: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024540: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024540: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024540: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024542: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024551: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024551: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024551: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024551: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024551: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024551: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024551: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024551: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024552: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024562: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024562: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024562: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024562: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024562: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024562: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024562: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024562: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024562: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024572: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024572: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024572: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024573: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024573: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024573: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024573: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024573: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024573: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024573: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024573: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024579: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024579: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024580: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024580: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024582: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024584: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024584: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024584: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024584: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024584: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024584: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024584: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024584: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024592: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024595: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024595: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024595: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024595: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024595: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024595: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024595: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024595: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024602: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024606: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024606: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024606: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024606: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024606: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024606: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024606: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024606: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024612: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024617: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024617: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024617: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024617: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024617: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024617: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024617: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024617: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024622: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024629: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024629: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024629: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024629: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024629: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024629: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024629: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024629: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024632: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024632: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024632: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024639: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024639: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024640: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024640: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024640: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024640: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024640: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024640: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024640: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024640: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024640: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024640: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024642: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024651: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024651: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024651: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024651: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024651: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024651: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024651: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024651: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024652: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024662: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024662: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024662: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024662: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024662: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024662: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024662: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024662: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024662: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024672: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024673: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024673: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024673: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024673: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024673: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024673: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024673: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024673: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024682: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024684: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024684: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024684: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024684: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024684: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024684: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024684: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024684: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024692: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024692: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024692: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024695: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024695: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024695: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024695: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024695: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024695: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024695: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024695: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024699: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024699: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024700: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024700: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024702: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024706: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024706: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024706: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024706: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024706: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024706: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024706: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024706: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024712: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024717: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024717: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024717: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024717: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024717: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024717: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024717: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024717: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024722: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024728: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024728: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024728: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024728: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024728: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024728: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024728: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024728: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024732: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024739: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024739: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024739: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024739: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024739: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024739: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024739: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024739: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024742: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024752: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024752: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024752: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024756: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024756: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024756: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024756: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024756: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024756: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024756: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024756: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024759: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024759: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024760: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024760: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024762: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024767: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024767: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024767: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024767: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024767: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024767: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024767: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024767: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024772: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024778: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024778: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024778: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024778: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024778: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024778: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024778: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024778: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024782: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024792: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024802: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024812: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024812: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024812: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024819: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024819: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024820: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024820: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024822: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024832: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024842: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024852: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024862: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024865: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024865: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024865: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024865: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024865: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024865: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024865: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024865: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024872: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024872: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024872: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024879: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024879: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024880: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024880: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024882: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024892: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024902: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024912: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024915: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024915: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024915: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024915: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024915: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024915: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024915: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024915: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024922: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024926: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024926: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024926: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024926: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024926: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024926: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024926: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024926: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024932: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024932: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024932: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024937: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024937: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024937: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024937: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024937: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024937: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024937: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024937: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024939: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024939: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755024940: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755024940: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755024942: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024948: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024948: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024948: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024948: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024948: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024948: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024948: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024948: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024952: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024959: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024959: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024959: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024959: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024959: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024959: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024959: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024959: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024962: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024970: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024970: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024970: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024970: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024970: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024970: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024970: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024970: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024972: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024981: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024981: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024981: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024981: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024981: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024981: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024981: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024981: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024982: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024992: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755024992: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755024992: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755024992: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024992: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755024992: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755024992: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755024992: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755024992: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755024992: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024992: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755024999: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755024999: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025000: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025000: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025002: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025003: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025003: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025003: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025003: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025003: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025003: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025003: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025003: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025012: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025014: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025014: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025014: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025014: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025014: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025014: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025014: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025014: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025022: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025025: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025025: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025025: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025025: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025025: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025025: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025025: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025025: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025032: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025036: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025036: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025036: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025036: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025036: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025036: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025036: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025036: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025042: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025048: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025048: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025048: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025048: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025048: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025048: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025048: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025048: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025052: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025052: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025052: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025059: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025059: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025059: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025059: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025059: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025059: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025059: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025059: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025059: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025059: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025060: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025060: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025062: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025070: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025070: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025070: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025070: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025070: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025070: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025070: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025070: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025072: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025081: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025081: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025081: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025081: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025081: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025081: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025081: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025081: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025082: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025092: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025092: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025092: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025092: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025092: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025092: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025092: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025092: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025092: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025102: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025103: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025103: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025103: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025103: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025103: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025103: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025103: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025103: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025112: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025112: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025112: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025114: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025114: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025114: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025114: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025114: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025114: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025114: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025114: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025119: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025119: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025120: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025120: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025122: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025125: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025125: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025125: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025125: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025125: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025125: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025125: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025125: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025132: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025136: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025136: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025136: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025136: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025136: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025136: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025136: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025136: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025142: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025152: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025157: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025157: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025157: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025157: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025157: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025157: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025157: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025157: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025162: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025172: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025172: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025172: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025172: Received PUBLISH from dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025172: [PLUGIN][B1] [TRUST] Evaluating message with signers: [ B0 ]
+1755025172: [PLUGIN][B1] [TRUST] Evaluating message based on last signer only.
+1755025172: [PLUGIN][B1] [TRUST] Looking up direct trust from 'B0' to 'B1'
+1755025172: [PLUGIN][B1] [TRUST] Found link from 'B0'. r=0, s=0. Direct trust is 0.500
+1755025172: [PLUGIN][B1] [TRUST] ✅ Last signer 'B0' is trusted (0.500 >= 0.500). Accepting message.
+1755025172: Sending PUBLISH to local.dhruvubuntu.b1_to_b3 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025172: Sending PUBLISH to local.dhruvubuntu.b1_to_b4 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (195 bytes))
+1755025179: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025179: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025180: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025180: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025182: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025192: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025202: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025212: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025222: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025232: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025232: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025232: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025239: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025239: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025240: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025240: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025242: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025252: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025262: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025272: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025282: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025292: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025292: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025292: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025299: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025299: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025300: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025300: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025302: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025312: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025322: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025332: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025342: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025352: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025352: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025352: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025359: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025359: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025360: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025360: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025362: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025372: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025382: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025392: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025402: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025412: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025412: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025412: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025419: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025419: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025420: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025420: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025422: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025432: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025442: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025452: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025462: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025472: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025472: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025472: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025479: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025479: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025480: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025480: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025482: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025492: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025502: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025512: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025522: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025532: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025532: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025532: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025539: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025539: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025540: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025540: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025542: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025552: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025562: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025572: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025582: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025592: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025592: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025592: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025599: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025599: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025600: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025600: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025602: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025612: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025622: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025632: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025642: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025652: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025652: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025652: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025659: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025659: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025660: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025660: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025662: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025672: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025682: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025692: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025702: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025712: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025712: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025712: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025719: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025719: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025720: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025720: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025722: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025732: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025742: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025752: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025762: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025772: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025772: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025772: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025779: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025779: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025780: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025780: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025782: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025792: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025802: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025812: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025822: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025832: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025832: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025832: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025839: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025839: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025840: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025840: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025842: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025852: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025862: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025872: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025882: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025892: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025892: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025892: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025899: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025899: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025900: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025900: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025902: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025912: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025922: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025932: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025942: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025952: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025952: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755025952: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755025959: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755025959: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755025960: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755025960: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755025962: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025972: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025982: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755025992: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026002: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026012: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026012: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755026012: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755026019: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755026019: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755026020: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755026020: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755026022: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026032: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026042: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026052: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026062: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026072: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026072: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755026072: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755026079: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755026079: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755026080: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755026080: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755026082: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026092: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026102: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026112: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026122: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026132: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026132: Received PINGREQ from dhruvubuntu.b0_to_b1
+1755026132: Sending PINGRESP to dhruvubuntu.b0_to_b1
+1755026139: Sending PINGREQ to local.dhruvubuntu.b1_to_b3
+1755026139: Received PINGRESP from local.dhruvubuntu.b1_to_b3
+1755026140: Sending PINGREQ to local.dhruvubuntu.b1_to_b4
+1755026140: Received PINGRESP from local.dhruvubuntu.b1_to_b4
+1755026142: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026152: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026162: [PLUGIN][B1] [REFRESH] Periodic map refresh triggered.
+1755026167: mosquitto version 2.0.21 terminating
+1755026167: [PLUGIN][B1] --- Trust-based plugin shutting down ---
+c map refresh triggered.
+1755026167: mosquitto version 2.0.21 terminating
+1755026167: [PLUGIN][B1] --- Trust-based plugin shutting down ---

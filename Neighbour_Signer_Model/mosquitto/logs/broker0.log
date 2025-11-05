@@ -1,0 +1,1979 @@
+1755023612: Warning: File /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker0.log has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker0.log`.
+1755023612: Warning: File /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker0.log owner is not dhruv. Future versions will refuse to load this file.To fix this, use `chown dhruv /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker0.log`.
+1755023612: Warning: File /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/logs/broker0.log group is not dhruv. Future versions will refuse to load this file.
+1755023612: mosquitto version 2.0.21 starting
+1755023612: Config loaded from /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/brokers/broker0.conf.
+1755023612: Loading plugin: /home/dhruv/winshare/Neighbour_Signer_Model/mosquitto/plugins/payload-modification/mosquitto_payload_modification.so
+1755023612: [PLUGIN][B0] --- Trust-based plugin initializing (V4.1 - Standalone Mode w/Logs) ---
+1755023612: [PLUGIN][B0] [INIT] ✅ Plugin initialization complete.
+1755023612: Opening ipv4 listen socket on port 1883.
+1755023612: Opening ipv6 listen socket on port 1883.
+1755023612: Bridge local.dhruvubuntu.b0_to_b1 doing local SUBSCRIBE on topic #
+1755023612: Connecting bridge b0_to_b1 (127.0.0.1:1884)
+1755023612: Bridge dhruvubuntu.b0_to_b1 sending CONNECT
+1755023612: Bridge local.dhruvubuntu.b0_to_b2 doing local SUBSCRIBE on topic #
+1755023612: Connecting bridge b0_to_b2 (127.0.0.1:1885)
+1755023612: Bridge dhruvubuntu.b0_to_b2 sending CONNECT
+1755023612: mosquitto version 2.0.21 running
+1755023612: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023612: Received CONNACK on connection local.dhruvubuntu.b0_to_b1.
+1755023612: Bridge local.dhruvubuntu.b0_to_b1 sending UNSUBSCRIBE (Mid: 2, Topic: #)
+1755023612: Received PUBACK from local.dhruvubuntu.b0_to_b1 (Mid: 1, RC:0)
+1755023612: Received UNSUBACK from local.dhruvubuntu.b0_to_b1
+1755023612: Received CONNACK on connection local.dhruvubuntu.b0_to_b2.
+1755023612: Bridge local.dhruvubuntu.b0_to_b2 sending UNSUBSCRIBE (Mid: 2, Topic: #)
+1755023612: Received PUBACK from local.dhruvubuntu.b0_to_b2 (Mid: 1, RC:0)
+1755023612: Received UNSUBACK from local.dhruvubuntu.b0_to_b2
+1755023620: New connection from 127.0.0.1:50186 on port 1883.
+1755023620: New client connected from 127.0.0.1:50186 as C0 (p2, c1, k60).
+1755023620: No will message specified.
+1755023620: Sending CONNACK to C0 (0, 0)
+1755023620: Received SUBSCRIBE from C0
+1755023620: 	groundfloor/bedroom (QoS 0)
+1755023620: C0 0 groundfloor/bedroom
+1755023620: Sending SUBACK to C0
+1755023621: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023621: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023621: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023622: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023625: Client C0 closed its connection.
+1755023631: New connection from 127.0.0.1:41348 on port 1883.
+1755023631: New client connected from 127.0.0.1:41348 as C0 (p2, c1, k60).
+1755023631: No will message specified.
+1755023631: Sending CONNACK to C0 (0, 0)
+1755023631: Received SUBSCRIBE from C0
+1755023631: 	groundfloor/bedroom (QoS 0)
+1755023631: C0 0 groundfloor/bedroom
+1755023631: Sending SUBACK to C0
+1755023632: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023632: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023632: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023632: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023636: Client C0 closed its connection.
+1755023642: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023642: New connection from 127.0.0.1:55938 on port 1883.
+1755023642: New client connected from 127.0.0.1:55938 as C0 (p2, c1, k60).
+1755023642: No will message specified.
+1755023642: Sending CONNACK to C0 (0, 0)
+1755023642: Received SUBSCRIBE from C0
+1755023642: 	groundfloor/bedroom (QoS 0)
+1755023642: C0 0 groundfloor/bedroom
+1755023642: Sending SUBACK to C0
+1755023643: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023643: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023643: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023647: Client C0 closed its connection.
+1755023652: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023653: New connection from 127.0.0.1:58768 on port 1883.
+1755023653: New client connected from 127.0.0.1:58768 as C0 (p2, c1, k60).
+1755023653: No will message specified.
+1755023653: Sending CONNACK to C0 (0, 0)
+1755023653: Received SUBSCRIBE from C0
+1755023653: 	groundfloor/bedroom (QoS 0)
+1755023653: C0 0 groundfloor/bedroom
+1755023653: Sending SUBACK to C0
+1755023654: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023654: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023654: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023658: Client C0 closed its connection.
+1755023662: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023664: New connection from 127.0.0.1:49066 on port 1883.
+1755023664: New client connected from 127.0.0.1:49066 as C0 (p2, c1, k60).
+1755023664: No will message specified.
+1755023664: Sending CONNACK to C0 (0, 0)
+1755023664: Received SUBSCRIBE from C0
+1755023664: 	groundfloor/bedroom (QoS 0)
+1755023664: C0 0 groundfloor/bedroom
+1755023664: Sending SUBACK to C0
+1755023665: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023665: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023665: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023669: Client C0 closed its connection.
+1755023672: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023672: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755023672: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755023672: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755023672: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755023675: New connection from 127.0.0.1:53502 on port 1883.
+1755023675: New client connected from 127.0.0.1:53502 as C0 (p2, c1, k60).
+1755023675: No will message specified.
+1755023675: Sending CONNACK to C0 (0, 0)
+1755023675: Received SUBSCRIBE from C0
+1755023675: 	groundfloor/bedroom (QoS 0)
+1755023675: C0 0 groundfloor/bedroom
+1755023675: Sending SUBACK to C0
+1755023676: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023676: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023676: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023680: Client C0 closed its connection.
+1755023682: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023686: New connection from 127.0.0.1:52280 on port 1883.
+1755023686: New client connected from 127.0.0.1:52280 as C0 (p2, c1, k60).
+1755023686: No will message specified.
+1755023686: Sending CONNACK to C0 (0, 0)
+1755023686: Received SUBSCRIBE from C0
+1755023686: 	groundfloor/bedroom (QoS 0)
+1755023686: C0 0 groundfloor/bedroom
+1755023686: Sending SUBACK to C0
+1755023687: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023687: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023687: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023691: Client C0 closed its connection.
+1755023692: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023697: New connection from 127.0.0.1:42970 on port 1883.
+1755023697: New client connected from 127.0.0.1:42970 as C0 (p2, c1, k60).
+1755023697: No will message specified.
+1755023697: Sending CONNACK to C0 (0, 0)
+1755023697: Received SUBSCRIBE from C0
+1755023697: 	groundfloor/bedroom (QoS 0)
+1755023697: C0 0 groundfloor/bedroom
+1755023697: Sending SUBACK to C0
+1755023698: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023698: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023698: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023702: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023702: Client C0 closed its connection.
+1755023708: New connection from 127.0.0.1:46824 on port 1883.
+1755023708: New client connected from 127.0.0.1:46824 as C0 (p2, c1, k60).
+1755023708: No will message specified.
+1755023708: Sending CONNACK to C0 (0, 0)
+1755023708: Received SUBSCRIBE from C0
+1755023708: 	groundfloor/bedroom (QoS 0)
+1755023708: C0 0 groundfloor/bedroom
+1755023708: Sending SUBACK to C0
+1755023709: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023709: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023709: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023712: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023713: Client C0 closed its connection.
+1755023719: New connection from 127.0.0.1:56660 on port 1883.
+1755023719: New client connected from 127.0.0.1:56660 as C0 (p2, c1, k60).
+1755023719: No will message specified.
+1755023719: Sending CONNACK to C0 (0, 0)
+1755023719: Received SUBSCRIBE from C0
+1755023719: 	groundfloor/bedroom (QoS 0)
+1755023719: C0 0 groundfloor/bedroom
+1755023719: Sending SUBACK to C0
+1755023720: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023720: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023720: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023722: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023724: Client C0 closed its connection.
+1755023730: New connection from 127.0.0.1:58258 on port 1883.
+1755023730: New client connected from 127.0.0.1:58258 as C0 (p2, c1, k60).
+1755023730: No will message specified.
+1755023730: Sending CONNACK to C0 (0, 0)
+1755023730: Received SUBSCRIBE from C0
+1755023730: 	groundfloor/bedroom (QoS 0)
+1755023730: C0 0 groundfloor/bedroom
+1755023730: Sending SUBACK to C0
+1755023731: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023731: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023731: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023732: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023732: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755023732: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755023732: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755023732: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755023735: Client C0 closed its connection.
+1755023741: New connection from 127.0.0.1:55434 on port 1883.
+1755023741: New client connected from 127.0.0.1:55434 as C0 (p2, c1, k60).
+1755023741: No will message specified.
+1755023741: Sending CONNACK to C0 (0, 0)
+1755023741: Received SUBSCRIBE from C0
+1755023741: 	groundfloor/bedroom (QoS 0)
+1755023741: C0 0 groundfloor/bedroom
+1755023741: Sending SUBACK to C0
+1755023742: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023742: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023742: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023742: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023746: Client C0 closed its connection.
+1755023752: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023752: New connection from 127.0.0.1:34890 on port 1883.
+1755023752: New client connected from 127.0.0.1:34890 as C0 (p2, c1, k60).
+1755023752: No will message specified.
+1755023752: Sending CONNACK to C0 (0, 0)
+1755023752: Received SUBSCRIBE from C0
+1755023752: 	groundfloor/bedroom (QoS 0)
+1755023752: C0 0 groundfloor/bedroom
+1755023752: Sending SUBACK to C0
+1755023753: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023753: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023753: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023757: Client C0 closed its connection.
+1755023762: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023763: New connection from 127.0.0.1:42402 on port 1883.
+1755023763: New client connected from 127.0.0.1:42402 as C0 (p2, c1, k60).
+1755023763: No will message specified.
+1755023763: Sending CONNACK to C0 (0, 0)
+1755023763: Received SUBSCRIBE from C0
+1755023763: 	groundfloor/bedroom (QoS 0)
+1755023763: C0 0 groundfloor/bedroom
+1755023763: Sending SUBACK to C0
+1755023764: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023764: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023764: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023768: Client C0 closed its connection.
+1755023772: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023774: New connection from 127.0.0.1:52338 on port 1883.
+1755023774: New client connected from 127.0.0.1:52338 as C0 (p2, c1, k60).
+1755023774: No will message specified.
+1755023774: Sending CONNACK to C0 (0, 0)
+1755023774: Received SUBSCRIBE from C0
+1755023774: 	groundfloor/bedroom (QoS 0)
+1755023774: C0 0 groundfloor/bedroom
+1755023774: Sending SUBACK to C0
+1755023775: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023775: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023775: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023779: Client C0 closed its connection.
+1755023782: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023785: New connection from 127.0.0.1:58998 on port 1883.
+1755023785: New client connected from 127.0.0.1:58998 as C0 (p2, c1, k60).
+1755023785: No will message specified.
+1755023785: Sending CONNACK to C0 (0, 0)
+1755023785: Received SUBSCRIBE from C0
+1755023785: 	groundfloor/bedroom (QoS 0)
+1755023785: C0 0 groundfloor/bedroom
+1755023785: Sending SUBACK to C0
+1755023786: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023786: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023786: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023790: Client C0 closed its connection.
+1755023792: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023792: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755023792: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755023792: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755023792: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755023796: New connection from 127.0.0.1:48994 on port 1883.
+1755023796: New client connected from 127.0.0.1:48994 as C0 (p2, c1, k60).
+1755023796: No will message specified.
+1755023796: Sending CONNACK to C0 (0, 0)
+1755023796: Received SUBSCRIBE from C0
+1755023796: 	groundfloor/bedroom (QoS 0)
+1755023796: C0 0 groundfloor/bedroom
+1755023796: Sending SUBACK to C0
+1755023797: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023797: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023797: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023801: Client C0 closed its connection.
+1755023802: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023808: New connection from 127.0.0.1:52186 on port 1883.
+1755023808: New client connected from 127.0.0.1:52186 as C0 (p2, c1, k60).
+1755023808: No will message specified.
+1755023808: Sending CONNACK to C0 (0, 0)
+1755023808: Received SUBSCRIBE from C0
+1755023808: 	groundfloor/bedroom (QoS 0)
+1755023808: C0 0 groundfloor/bedroom
+1755023808: Sending SUBACK to C0
+1755023809: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023809: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023809: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023812: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023813: Client C0 closed its connection.
+1755023819: New connection from 127.0.0.1:35808 on port 1883.
+1755023819: New client connected from 127.0.0.1:35808 as C0 (p2, c1, k60).
+1755023819: No will message specified.
+1755023819: Sending CONNACK to C0 (0, 0)
+1755023819: Received SUBSCRIBE from C0
+1755023819: 	groundfloor/bedroom (QoS 0)
+1755023819: C0 0 groundfloor/bedroom
+1755023819: Sending SUBACK to C0
+1755023820: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023820: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023820: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023822: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023824: Client C0 closed its connection.
+1755023830: New connection from 127.0.0.1:50850 on port 1883.
+1755023830: New client connected from 127.0.0.1:50850 as C0 (p2, c1, k60).
+1755023830: No will message specified.
+1755023830: Sending CONNACK to C0 (0, 0)
+1755023830: Received SUBSCRIBE from C0
+1755023830: 	groundfloor/bedroom (QoS 0)
+1755023830: C0 0 groundfloor/bedroom
+1755023830: Sending SUBACK to C0
+1755023831: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023831: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023831: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023832: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023835: Client C0 closed its connection.
+1755023841: New connection from 127.0.0.1:55866 on port 1883.
+1755023841: New client connected from 127.0.0.1:55866 as C0 (p2, c1, k60).
+1755023841: No will message specified.
+1755023841: Sending CONNACK to C0 (0, 0)
+1755023841: Received SUBSCRIBE from C0
+1755023841: 	groundfloor/bedroom (QoS 0)
+1755023841: C0 0 groundfloor/bedroom
+1755023841: Sending SUBACK to C0
+1755023842: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023842: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023842: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023842: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023846: Client C0 closed its connection.
+1755023852: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023852: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755023852: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755023852: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755023852: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755023852: New connection from 127.0.0.1:36448 on port 1883.
+1755023852: New client connected from 127.0.0.1:36448 as C0 (p2, c1, k60).
+1755023852: No will message specified.
+1755023852: Sending CONNACK to C0 (0, 0)
+1755023852: Received SUBSCRIBE from C0
+1755023852: 	groundfloor/bedroom (QoS 0)
+1755023852: C0 0 groundfloor/bedroom
+1755023852: Sending SUBACK to C0
+1755023853: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023853: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023853: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023857: Client C0 closed its connection.
+1755023862: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023863: New connection from 127.0.0.1:57870 on port 1883.
+1755023863: New client connected from 127.0.0.1:57870 as C0 (p2, c1, k60).
+1755023863: No will message specified.
+1755023863: Sending CONNACK to C0 (0, 0)
+1755023863: Received SUBSCRIBE from C0
+1755023863: 	groundfloor/bedroom (QoS 0)
+1755023863: C0 0 groundfloor/bedroom
+1755023863: Sending SUBACK to C0
+1755023864: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023864: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023864: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023868: Client C0 closed its connection.
+1755023872: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023874: New connection from 127.0.0.1:46870 on port 1883.
+1755023874: New client connected from 127.0.0.1:46870 as C0 (p2, c1, k60).
+1755023874: No will message specified.
+1755023874: Sending CONNACK to C0 (0, 0)
+1755023874: Received SUBSCRIBE from C0
+1755023874: 	groundfloor/bedroom (QoS 0)
+1755023874: C0 0 groundfloor/bedroom
+1755023874: Sending SUBACK to C0
+1755023875: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023875: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023875: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023879: Client C0 closed its connection.
+1755023882: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023885: New connection from 127.0.0.1:35340 on port 1883.
+1755023885: New client connected from 127.0.0.1:35340 as C0 (p2, c1, k60).
+1755023885: No will message specified.
+1755023885: Sending CONNACK to C0 (0, 0)
+1755023885: Received SUBSCRIBE from C0
+1755023885: 	groundfloor/bedroom (QoS 0)
+1755023885: C0 0 groundfloor/bedroom
+1755023885: Sending SUBACK to C0
+1755023886: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023886: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023886: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023890: Client C0 closed its connection.
+1755023892: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023896: New connection from 127.0.0.1:45340 on port 1883.
+1755023896: New client connected from 127.0.0.1:45340 as C0 (p2, c1, k60).
+1755023896: No will message specified.
+1755023896: Sending CONNACK to C0 (0, 0)
+1755023896: Received SUBSCRIBE from C0
+1755023896: 	groundfloor/bedroom (QoS 0)
+1755023896: C0 0 groundfloor/bedroom
+1755023896: Sending SUBACK to C0
+1755023897: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023897: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023897: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023901: Client C0 closed its connection.
+1755023902: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023907: New connection from 127.0.0.1:50586 on port 1883.
+1755023907: New client connected from 127.0.0.1:50586 as C0 (p2, c1, k60).
+1755023907: No will message specified.
+1755023907: Sending CONNACK to C0 (0, 0)
+1755023907: Received SUBSCRIBE from C0
+1755023907: 	groundfloor/bedroom (QoS 0)
+1755023907: C0 0 groundfloor/bedroom
+1755023907: Sending SUBACK to C0
+1755023908: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023908: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023908: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023912: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023912: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755023912: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755023912: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755023912: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755023912: Client C0 closed its connection.
+1755023918: New connection from 127.0.0.1:38324 on port 1883.
+1755023918: New client connected from 127.0.0.1:38324 as C0 (p2, c1, k60).
+1755023918: No will message specified.
+1755023918: Sending CONNACK to C0 (0, 0)
+1755023918: Received SUBSCRIBE from C0
+1755023918: 	groundfloor/bedroom (QoS 0)
+1755023918: C0 0 groundfloor/bedroom
+1755023918: Sending SUBACK to C0
+1755023919: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023919: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023919: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023922: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023923: Client C0 closed its connection.
+1755023929: New connection from 127.0.0.1:40156 on port 1883.
+1755023929: New client connected from 127.0.0.1:40156 as C0 (p2, c1, k60).
+1755023929: No will message specified.
+1755023929: Sending CONNACK to C0 (0, 0)
+1755023929: Received SUBSCRIBE from C0
+1755023929: 	groundfloor/bedroom (QoS 0)
+1755023929: C0 0 groundfloor/bedroom
+1755023929: Sending SUBACK to C0
+1755023930: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023930: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023930: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023932: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023934: Client C0 closed its connection.
+1755023940: New connection from 127.0.0.1:49990 on port 1883.
+1755023940: New client connected from 127.0.0.1:49990 as C0 (p2, c1, k60).
+1755023940: No will message specified.
+1755023940: Sending CONNACK to C0 (0, 0)
+1755023940: Received SUBSCRIBE from C0
+1755023940: 	groundfloor/bedroom (QoS 0)
+1755023940: C0 0 groundfloor/bedroom
+1755023940: Sending SUBACK to C0
+1755023941: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023941: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023941: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023942: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023948: Client C0 closed its connection.
+1755023952: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023954: New connection from 127.0.0.1:38500 on port 1883.
+1755023954: New client connected from 127.0.0.1:38500 as C0 (p2, c1, k60).
+1755023954: No will message specified.
+1755023954: Sending CONNACK to C0 (0, 0)
+1755023954: Received SUBSCRIBE from C0
+1755023954: 	groundfloor/bedroom (QoS 0)
+1755023954: C0 0 groundfloor/bedroom
+1755023954: Sending SUBACK to C0
+1755023955: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023955: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023955: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023959: Client C0 closed its connection.
+1755023962: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023965: New connection from 127.0.0.1:38842 on port 1883.
+1755023965: New client connected from 127.0.0.1:38842 as C0 (p2, c1, k60).
+1755023965: No will message specified.
+1755023965: Sending CONNACK to C0 (0, 0)
+1755023965: Received SUBSCRIBE from C0
+1755023965: 	groundfloor/bedroom (QoS 0)
+1755023965: C0 0 groundfloor/bedroom
+1755023965: Sending SUBACK to C0
+1755023966: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023966: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023966: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023970: Client C0 closed its connection.
+1755023972: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023972: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755023972: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755023972: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755023972: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755023976: New connection from 127.0.0.1:45874 on port 1883.
+1755023976: New client connected from 127.0.0.1:45874 as C0 (p2, c1, k60).
+1755023976: No will message specified.
+1755023976: Sending CONNACK to C0 (0, 0)
+1755023976: Received SUBSCRIBE from C0
+1755023976: 	groundfloor/bedroom (QoS 0)
+1755023976: C0 0 groundfloor/bedroom
+1755023976: Sending SUBACK to C0
+1755023977: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023977: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023977: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023981: Client C0 closed its connection.
+1755023982: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023987: New connection from 127.0.0.1:60868 on port 1883.
+1755023987: New client connected from 127.0.0.1:60868 as C0 (p2, c1, k60).
+1755023987: No will message specified.
+1755023987: Sending CONNACK to C0 (0, 0)
+1755023987: Received SUBSCRIBE from C0
+1755023987: 	groundfloor/bedroom (QoS 0)
+1755023987: C0 0 groundfloor/bedroom
+1755023987: Sending SUBACK to C0
+1755023988: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023988: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023988: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023992: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755023992: Client C0 closed its connection.
+1755023998: New connection from 127.0.0.1:36478 on port 1883.
+1755023998: New client connected from 127.0.0.1:36478 as C0 (p2, c1, k60).
+1755023998: No will message specified.
+1755023998: Sending CONNACK to C0 (0, 0)
+1755023998: Received SUBSCRIBE from C0
+1755023998: 	groundfloor/bedroom (QoS 0)
+1755023998: C0 0 groundfloor/bedroom
+1755023998: Sending SUBACK to C0
+1755023999: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023999: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755023999: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024002: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024003: Client C0 closed its connection.
+1755024009: New connection from 127.0.0.1:32884 on port 1883.
+1755024009: New client connected from 127.0.0.1:32884 as C0 (p2, c1, k60).
+1755024009: No will message specified.
+1755024009: Sending CONNACK to C0 (0, 0)
+1755024009: Received SUBSCRIBE from C0
+1755024009: 	groundfloor/bedroom (QoS 0)
+1755024009: C0 0 groundfloor/bedroom
+1755024009: Sending SUBACK to C0
+1755024010: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024010: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024010: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024012: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024014: Client C0 closed its connection.
+1755024020: New connection from 127.0.0.1:46650 on port 1883.
+1755024020: New client connected from 127.0.0.1:46650 as C0 (p2, c1, k60).
+1755024020: No will message specified.
+1755024020: Sending CONNACK to C0 (0, 0)
+1755024020: Received SUBSCRIBE from C0
+1755024020: 	groundfloor/bedroom (QoS 0)
+1755024020: C0 0 groundfloor/bedroom
+1755024020: Sending SUBACK to C0
+1755024021: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024021: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024021: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024022: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024025: Client C0 closed its connection.
+1755024031: New connection from 127.0.0.1:38472 on port 1883.
+1755024031: New client connected from 127.0.0.1:38472 as C0 (p2, c1, k60).
+1755024031: No will message specified.
+1755024031: Sending CONNACK to C0 (0, 0)
+1755024031: Received SUBSCRIBE from C0
+1755024031: 	groundfloor/bedroom (QoS 0)
+1755024031: C0 0 groundfloor/bedroom
+1755024031: Sending SUBACK to C0
+1755024032: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024032: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024032: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024032: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024032: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024032: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024032: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024032: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024036: Client C0 closed its connection.
+1755024042: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024042: New connection from 127.0.0.1:59224 on port 1883.
+1755024042: New client connected from 127.0.0.1:59224 as C0 (p2, c1, k60).
+1755024042: No will message specified.
+1755024042: Sending CONNACK to C0 (0, 0)
+1755024042: Received SUBSCRIBE from C0
+1755024042: 	groundfloor/bedroom (QoS 0)
+1755024042: C0 0 groundfloor/bedroom
+1755024042: Sending SUBACK to C0
+1755024043: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024043: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024043: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024047: Client C0 closed its connection.
+1755024052: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024053: New connection from 127.0.0.1:49156 on port 1883.
+1755024053: New client connected from 127.0.0.1:49156 as C0 (p2, c1, k60).
+1755024053: No will message specified.
+1755024053: Sending CONNACK to C0 (0, 0)
+1755024053: Received SUBSCRIBE from C0
+1755024053: 	groundfloor/bedroom (QoS 0)
+1755024053: C0 0 groundfloor/bedroom
+1755024053: Sending SUBACK to C0
+1755024054: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024054: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024054: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024058: Client C0 closed its connection.
+1755024062: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024064: New connection from 127.0.0.1:51054 on port 1883.
+1755024064: New client connected from 127.0.0.1:51054 as C0 (p2, c1, k60).
+1755024064: No will message specified.
+1755024064: Sending CONNACK to C0 (0, 0)
+1755024064: Received SUBSCRIBE from C0
+1755024064: 	groundfloor/bedroom (QoS 0)
+1755024064: C0 0 groundfloor/bedroom
+1755024064: Sending SUBACK to C0
+1755024065: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024065: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024065: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024069: Client C0 closed its connection.
+1755024072: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024075: New connection from 127.0.0.1:38992 on port 1883.
+1755024075: New client connected from 127.0.0.1:38992 as C0 (p2, c1, k60).
+1755024075: No will message specified.
+1755024075: Sending CONNACK to C0 (0, 0)
+1755024075: Received SUBSCRIBE from C0
+1755024075: 	groundfloor/bedroom (QoS 0)
+1755024075: C0 0 groundfloor/bedroom
+1755024075: Sending SUBACK to C0
+1755024076: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024076: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024076: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024080: Client C0 closed its connection.
+1755024082: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024086: New connection from 127.0.0.1:60286 on port 1883.
+1755024086: New client connected from 127.0.0.1:60286 as C0 (p2, c1, k60).
+1755024086: No will message specified.
+1755024086: Sending CONNACK to C0 (0, 0)
+1755024086: Received SUBSCRIBE from C0
+1755024086: 	groundfloor/bedroom (QoS 0)
+1755024086: C0 0 groundfloor/bedroom
+1755024086: Sending SUBACK to C0
+1755024087: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024087: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024087: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024091: Client C0 closed its connection.
+1755024092: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024092: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024092: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024092: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024092: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024097: New connection from 127.0.0.1:45790 on port 1883.
+1755024097: New client connected from 127.0.0.1:45790 as C0 (p2, c1, k60).
+1755024097: No will message specified.
+1755024097: Sending CONNACK to C0 (0, 0)
+1755024097: Received SUBSCRIBE from C0
+1755024097: 	groundfloor/bedroom (QoS 0)
+1755024097: C0 0 groundfloor/bedroom
+1755024097: Sending SUBACK to C0
+1755024098: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024098: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024098: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024102: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024102: Client C0 closed its connection.
+1755024108: New connection from 127.0.0.1:37264 on port 1883.
+1755024108: New client connected from 127.0.0.1:37264 as C0 (p2, c1, k60).
+1755024108: No will message specified.
+1755024108: Sending CONNACK to C0 (0, 0)
+1755024108: Received SUBSCRIBE from C0
+1755024108: 	groundfloor/bedroom (QoS 0)
+1755024108: C0 0 groundfloor/bedroom
+1755024108: Sending SUBACK to C0
+1755024109: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024109: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024109: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024112: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024113: Client C0 closed its connection.
+1755024120: New connection from 127.0.0.1:57230 on port 1883.
+1755024120: New client connected from 127.0.0.1:57230 as C0 (p2, c1, k60).
+1755024120: No will message specified.
+1755024120: Sending CONNACK to C0 (0, 0)
+1755024120: Received SUBSCRIBE from C0
+1755024120: 	groundfloor/bedroom (QoS 0)
+1755024120: C0 0 groundfloor/bedroom
+1755024120: Sending SUBACK to C0
+1755024121: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024121: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024121: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024122: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024125: Client C0 closed its connection.
+1755024131: New connection from 127.0.0.1:39908 on port 1883.
+1755024131: New client connected from 127.0.0.1:39908 as C0 (p2, c1, k60).
+1755024131: No will message specified.
+1755024131: Sending CONNACK to C0 (0, 0)
+1755024131: Received SUBSCRIBE from C0
+1755024131: 	groundfloor/bedroom (QoS 0)
+1755024131: C0 0 groundfloor/bedroom
+1755024131: Sending SUBACK to C0
+1755024132: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024132: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024132: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024132: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024136: Client C0 closed its connection.
+1755024142: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024142: New connection from 127.0.0.1:35550 on port 1883.
+1755024142: New client connected from 127.0.0.1:35550 as C0 (p2, c1, k60).
+1755024142: No will message specified.
+1755024142: Sending CONNACK to C0 (0, 0)
+1755024142: Received SUBSCRIBE from C0
+1755024142: 	groundfloor/bedroom (QoS 0)
+1755024142: C0 0 groundfloor/bedroom
+1755024142: Sending SUBACK to C0
+1755024143: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024143: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024143: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024147: Client C0 closed its connection.
+1755024152: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024152: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024152: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024152: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024152: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024153: New connection from 127.0.0.1:55926 on port 1883.
+1755024153: New client connected from 127.0.0.1:55926 as C0 (p2, c1, k60).
+1755024153: No will message specified.
+1755024153: Sending CONNACK to C0 (0, 0)
+1755024153: Received SUBSCRIBE from C0
+1755024153: 	groundfloor/bedroom (QoS 0)
+1755024153: C0 0 groundfloor/bedroom
+1755024153: Sending SUBACK to C0
+1755024154: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024154: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024154: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024158: Client C0 closed its connection.
+1755024162: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024164: New connection from 127.0.0.1:55226 on port 1883.
+1755024164: New client connected from 127.0.0.1:55226 as C0 (p2, c1, k60).
+1755024164: No will message specified.
+1755024164: Sending CONNACK to C0 (0, 0)
+1755024164: Received SUBSCRIBE from C0
+1755024164: 	groundfloor/bedroom (QoS 0)
+1755024164: C0 0 groundfloor/bedroom
+1755024164: Sending SUBACK to C0
+1755024165: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024165: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024165: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024169: Client C0 closed its connection.
+1755024172: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024182: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024192: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024197: New connection from 127.0.0.1:52906 on port 1883.
+1755024197: New client connected from 127.0.0.1:52906 as C0 (p2, c1, k60).
+1755024197: No will message specified.
+1755024197: Sending CONNACK to C0 (0, 0)
+1755024197: Received SUBSCRIBE from C0
+1755024197: 	groundfloor/bedroom (QoS 0)
+1755024197: C0 0 groundfloor/bedroom
+1755024197: Sending SUBACK to C0
+1755024198: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024198: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024198: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024202: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024202: Client C0 closed its connection.
+1755024208: New connection from 127.0.0.1:53342 on port 1883.
+1755024208: New client connected from 127.0.0.1:53342 as C0 (p2, c1, k60).
+1755024208: No will message specified.
+1755024208: Sending CONNACK to C0 (0, 0)
+1755024208: Received SUBSCRIBE from C0
+1755024208: 	groundfloor/bedroom (QoS 0)
+1755024208: C0 0 groundfloor/bedroom
+1755024208: Sending SUBACK to C0
+1755024209: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024209: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024209: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024212: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024212: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024212: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024212: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024212: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024213: Client C0 closed its connection.
+1755024219: New connection from 127.0.0.1:33494 on port 1883.
+1755024219: New client connected from 127.0.0.1:33494 as C0 (p2, c1, k60).
+1755024219: No will message specified.
+1755024219: Sending CONNACK to C0 (0, 0)
+1755024219: Received SUBSCRIBE from C0
+1755024219: 	groundfloor/bedroom (QoS 0)
+1755024219: C0 0 groundfloor/bedroom
+1755024219: Sending SUBACK to C0
+1755024220: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024220: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024220: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024222: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024224: Client C0 closed its connection.
+1755024230: New connection from 127.0.0.1:53564 on port 1883.
+1755024230: New client connected from 127.0.0.1:53564 as C0 (p2, c1, k60).
+1755024230: No will message specified.
+1755024230: Sending CONNACK to C0 (0, 0)
+1755024230: Received SUBSCRIBE from C0
+1755024230: 	groundfloor/bedroom (QoS 0)
+1755024230: C0 0 groundfloor/bedroom
+1755024230: Sending SUBACK to C0
+1755024231: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024231: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024231: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024232: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024235: Client C0 closed its connection.
+1755024241: New connection from 127.0.0.1:49944 on port 1883.
+1755024241: New client connected from 127.0.0.1:49944 as C0 (p2, c1, k60).
+1755024241: No will message specified.
+1755024241: Sending CONNACK to C0 (0, 0)
+1755024241: Received SUBSCRIBE from C0
+1755024241: 	groundfloor/bedroom (QoS 0)
+1755024241: C0 0 groundfloor/bedroom
+1755024241: Sending SUBACK to C0
+1755024242: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024242: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024242: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024242: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024246: Client C0 closed its connection.
+1755024252: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024252: New connection from 127.0.0.1:60420 on port 1883.
+1755024252: New client connected from 127.0.0.1:60420 as C0 (p2, c1, k60).
+1755024252: No will message specified.
+1755024252: Sending CONNACK to C0 (0, 0)
+1755024252: Received SUBSCRIBE from C0
+1755024252: 	groundfloor/bedroom (QoS 0)
+1755024252: C0 0 groundfloor/bedroom
+1755024252: Sending SUBACK to C0
+1755024253: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024253: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024253: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024257: Client C0 closed its connection.
+1755024262: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024263: New connection from 127.0.0.1:55400 on port 1883.
+1755024263: New client connected from 127.0.0.1:55400 as C0 (p2, c1, k60).
+1755024263: No will message specified.
+1755024263: Sending CONNACK to C0 (0, 0)
+1755024263: Received SUBSCRIBE from C0
+1755024263: 	groundfloor/bedroom (QoS 0)
+1755024263: C0 0 groundfloor/bedroom
+1755024263: Sending SUBACK to C0
+1755024264: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024264: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024264: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024268: Client C0 closed its connection.
+1755024272: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024272: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024272: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024272: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024272: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024274: New connection from 127.0.0.1:60148 on port 1883.
+1755024274: New client connected from 127.0.0.1:60148 as C0 (p2, c1, k60).
+1755024274: No will message specified.
+1755024274: Sending CONNACK to C0 (0, 0)
+1755024274: Received SUBSCRIBE from C0
+1755024274: 	groundfloor/bedroom (QoS 0)
+1755024274: C0 0 groundfloor/bedroom
+1755024274: Sending SUBACK to C0
+1755024275: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024275: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024275: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024279: Client C0 closed its connection.
+1755024282: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024285: New connection from 127.0.0.1:53946 on port 1883.
+1755024285: New client connected from 127.0.0.1:53946 as C0 (p2, c1, k60).
+1755024285: No will message specified.
+1755024285: Sending CONNACK to C0 (0, 0)
+1755024285: Received SUBSCRIBE from C0
+1755024285: 	groundfloor/bedroom (QoS 0)
+1755024285: C0 0 groundfloor/bedroom
+1755024285: Sending SUBACK to C0
+1755024286: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024286: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024286: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024290: Client C0 closed its connection.
+1755024292: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024296: New connection from 127.0.0.1:44164 on port 1883.
+1755024296: New client connected from 127.0.0.1:44164 as C0 (p2, c1, k60).
+1755024296: No will message specified.
+1755024296: Sending CONNACK to C0 (0, 0)
+1755024296: Received SUBSCRIBE from C0
+1755024296: 	groundfloor/bedroom (QoS 0)
+1755024296: C0 0 groundfloor/bedroom
+1755024296: Sending SUBACK to C0
+1755024297: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024297: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024297: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024301: Client C0 closed its connection.
+1755024302: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024307: New connection from 127.0.0.1:35454 on port 1883.
+1755024307: New client connected from 127.0.0.1:35454 as C0 (p2, c1, k60).
+1755024307: No will message specified.
+1755024307: Sending CONNACK to C0 (0, 0)
+1755024307: Received SUBSCRIBE from C0
+1755024307: 	groundfloor/bedroom (QoS 0)
+1755024307: C0 0 groundfloor/bedroom
+1755024307: Sending SUBACK to C0
+1755024308: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024308: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024308: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024312: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024312: Client C0 closed its connection.
+1755024318: New connection from 127.0.0.1:38100 on port 1883.
+1755024318: New client connected from 127.0.0.1:38100 as C0 (p2, c1, k60).
+1755024318: No will message specified.
+1755024318: Sending CONNACK to C0 (0, 0)
+1755024318: Received SUBSCRIBE from C0
+1755024318: 	groundfloor/bedroom (QoS 0)
+1755024318: C0 0 groundfloor/bedroom
+1755024318: Sending SUBACK to C0
+1755024319: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024319: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024319: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024322: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024323: Client C0 closed its connection.
+1755024329: New connection from 127.0.0.1:59962 on port 1883.
+1755024329: New client connected from 127.0.0.1:59962 as C0 (p2, c1, k60).
+1755024329: No will message specified.
+1755024329: Sending CONNACK to C0 (0, 0)
+1755024329: Received SUBSCRIBE from C0
+1755024329: 	groundfloor/bedroom (QoS 0)
+1755024329: C0 0 groundfloor/bedroom
+1755024329: Sending SUBACK to C0
+1755024330: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024330: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024330: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024332: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024332: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024332: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024332: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024332: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024334: Client C0 closed its connection.
+1755024340: New connection from 127.0.0.1:47128 on port 1883.
+1755024340: New client connected from 127.0.0.1:47128 as C0 (p2, c1, k60).
+1755024340: No will message specified.
+1755024340: Sending CONNACK to C0 (0, 0)
+1755024340: Received SUBSCRIBE from C0
+1755024340: 	groundfloor/bedroom (QoS 0)
+1755024340: C0 0 groundfloor/bedroom
+1755024340: Sending SUBACK to C0
+1755024341: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024341: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024341: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024342: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024345: Client C0 closed its connection.
+1755024351: New connection from 127.0.0.1:37546 on port 1883.
+1755024351: New client connected from 127.0.0.1:37546 as C0 (p2, c1, k60).
+1755024351: No will message specified.
+1755024351: Sending CONNACK to C0 (0, 0)
+1755024351: Received SUBSCRIBE from C0
+1755024351: 	groundfloor/bedroom (QoS 0)
+1755024351: C0 0 groundfloor/bedroom
+1755024351: Sending SUBACK to C0
+1755024352: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024352: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024352: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024352: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024356: Client C0 closed its connection.
+1755024362: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024362: New connection from 127.0.0.1:53834 on port 1883.
+1755024362: New client connected from 127.0.0.1:53834 as C0 (p2, c1, k60).
+1755024362: No will message specified.
+1755024362: Sending CONNACK to C0 (0, 0)
+1755024362: Received SUBSCRIBE from C0
+1755024362: 	groundfloor/bedroom (QoS 0)
+1755024362: C0 0 groundfloor/bedroom
+1755024362: Sending SUBACK to C0
+1755024363: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024363: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024363: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024367: Client C0 closed its connection.
+1755024372: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024373: New connection from 127.0.0.1:47782 on port 1883.
+1755024373: New client connected from 127.0.0.1:47782 as C0 (p2, c1, k60).
+1755024373: No will message specified.
+1755024373: Sending CONNACK to C0 (0, 0)
+1755024373: Received SUBSCRIBE from C0
+1755024373: 	groundfloor/bedroom (QoS 0)
+1755024373: C0 0 groundfloor/bedroom
+1755024373: Sending SUBACK to C0
+1755024374: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024374: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024374: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024378: Client C0 closed its connection.
+1755024382: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024385: New connection from 127.0.0.1:57086 on port 1883.
+1755024385: New client connected from 127.0.0.1:57086 as C0 (p2, c1, k60).
+1755024385: No will message specified.
+1755024385: Sending CONNACK to C0 (0, 0)
+1755024385: Received SUBSCRIBE from C0
+1755024385: 	groundfloor/bedroom (QoS 0)
+1755024385: C0 0 groundfloor/bedroom
+1755024385: Sending SUBACK to C0
+1755024386: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024386: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024386: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024390: Client C0 closed its connection.
+1755024392: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024392: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024392: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024392: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024392: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024396: New connection from 127.0.0.1:45324 on port 1883.
+1755024396: New client connected from 127.0.0.1:45324 as C0 (p2, c1, k60).
+1755024396: No will message specified.
+1755024396: Sending CONNACK to C0 (0, 0)
+1755024396: Received SUBSCRIBE from C0
+1755024396: 	groundfloor/bedroom (QoS 0)
+1755024396: C0 0 groundfloor/bedroom
+1755024396: Sending SUBACK to C0
+1755024397: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024397: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024397: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024401: Client C0 closed its connection.
+1755024402: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024407: New connection from 127.0.0.1:33086 on port 1883.
+1755024407: New client connected from 127.0.0.1:33086 as C0 (p2, c1, k60).
+1755024407: No will message specified.
+1755024407: Sending CONNACK to C0 (0, 0)
+1755024407: Received SUBSCRIBE from C0
+1755024407: 	groundfloor/bedroom (QoS 0)
+1755024407: C0 0 groundfloor/bedroom
+1755024407: Sending SUBACK to C0
+1755024408: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024408: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024408: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024412: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024412: Client C0 closed its connection.
+1755024418: New connection from 127.0.0.1:58040 on port 1883.
+1755024418: New client connected from 127.0.0.1:58040 as C0 (p2, c1, k60).
+1755024418: No will message specified.
+1755024418: Sending CONNACK to C0 (0, 0)
+1755024418: Received SUBSCRIBE from C0
+1755024418: 	groundfloor/bedroom (QoS 0)
+1755024418: C0 0 groundfloor/bedroom
+1755024418: Sending SUBACK to C0
+1755024419: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024419: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024419: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024422: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024423: Client C0 closed its connection.
+1755024429: New connection from 127.0.0.1:53388 on port 1883.
+1755024429: New client connected from 127.0.0.1:53388 as C0 (p2, c1, k60).
+1755024429: No will message specified.
+1755024429: Sending CONNACK to C0 (0, 0)
+1755024429: Received SUBSCRIBE from C0
+1755024429: 	groundfloor/bedroom (QoS 0)
+1755024429: C0 0 groundfloor/bedroom
+1755024429: Sending SUBACK to C0
+1755024430: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024430: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024430: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024432: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024434: Client C0 closed its connection.
+1755024440: New connection from 127.0.0.1:38756 on port 1883.
+1755024440: New client connected from 127.0.0.1:38756 as C0 (p2, c1, k60).
+1755024440: No will message specified.
+1755024440: Sending CONNACK to C0 (0, 0)
+1755024440: Received SUBSCRIBE from C0
+1755024440: 	groundfloor/bedroom (QoS 0)
+1755024440: C0 0 groundfloor/bedroom
+1755024440: Sending SUBACK to C0
+1755024441: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024441: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024441: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024442: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024445: Client C0 closed its connection.
+1755024451: New connection from 127.0.0.1:47424 on port 1883.
+1755024451: New client connected from 127.0.0.1:47424 as C0 (p2, c1, k60).
+1755024451: No will message specified.
+1755024451: Sending CONNACK to C0 (0, 0)
+1755024451: Received SUBSCRIBE from C0
+1755024451: 	groundfloor/bedroom (QoS 0)
+1755024451: C0 0 groundfloor/bedroom
+1755024451: Sending SUBACK to C0
+1755024452: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024452: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024452: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024452: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024452: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024452: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024452: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024452: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024456: Client C0 closed its connection.
+1755024462: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024462: New connection from 127.0.0.1:42960 on port 1883.
+1755024462: New client connected from 127.0.0.1:42960 as C0 (p2, c1, k60).
+1755024462: No will message specified.
+1755024462: Sending CONNACK to C0 (0, 0)
+1755024462: Received SUBSCRIBE from C0
+1755024462: 	groundfloor/bedroom (QoS 0)
+1755024462: C0 0 groundfloor/bedroom
+1755024462: Sending SUBACK to C0
+1755024463: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024463: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024463: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024467: Client C0 closed its connection.
+1755024472: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024473: New connection from 127.0.0.1:52104 on port 1883.
+1755024473: New client connected from 127.0.0.1:52104 as C0 (p2, c1, k60).
+1755024473: No will message specified.
+1755024473: Sending CONNACK to C0 (0, 0)
+1755024473: Received SUBSCRIBE from C0
+1755024473: 	groundfloor/bedroom (QoS 0)
+1755024473: C0 0 groundfloor/bedroom
+1755024473: Sending SUBACK to C0
+1755024474: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024474: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024474: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024478: Client C0 closed its connection.
+1755024482: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024484: New connection from 127.0.0.1:47438 on port 1883.
+1755024484: New client connected from 127.0.0.1:47438 as C0 (p2, c1, k60).
+1755024484: No will message specified.
+1755024484: Sending CONNACK to C0 (0, 0)
+1755024484: Received SUBSCRIBE from C0
+1755024484: 	groundfloor/bedroom (QoS 0)
+1755024484: C0 0 groundfloor/bedroom
+1755024484: Sending SUBACK to C0
+1755024485: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024485: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024485: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024489: Client C0 closed its connection.
+1755024492: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024495: New connection from 127.0.0.1:47728 on port 1883.
+1755024495: New client connected from 127.0.0.1:47728 as C0 (p2, c1, k60).
+1755024495: No will message specified.
+1755024495: Sending CONNACK to C0 (0, 0)
+1755024495: Received SUBSCRIBE from C0
+1755024495: 	groundfloor/bedroom (QoS 0)
+1755024495: C0 0 groundfloor/bedroom
+1755024495: Sending SUBACK to C0
+1755024496: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024496: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024496: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024500: Client C0 closed its connection.
+1755024502: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024506: New connection from 127.0.0.1:43500 on port 1883.
+1755024506: New client connected from 127.0.0.1:43500 as C0 (p2, c1, k60).
+1755024506: No will message specified.
+1755024506: Sending CONNACK to C0 (0, 0)
+1755024506: Received SUBSCRIBE from C0
+1755024506: 	groundfloor/bedroom (QoS 0)
+1755024506: C0 0 groundfloor/bedroom
+1755024506: Sending SUBACK to C0
+1755024507: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024507: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024507: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024511: Client C0 closed its connection.
+1755024512: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024512: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024512: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024512: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024512: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024517: New connection from 127.0.0.1:51542 on port 1883.
+1755024517: New client connected from 127.0.0.1:51542 as C0 (p2, c1, k60).
+1755024517: No will message specified.
+1755024517: Sending CONNACK to C0 (0, 0)
+1755024517: Received SUBSCRIBE from C0
+1755024517: 	groundfloor/bedroom (QoS 0)
+1755024517: C0 0 groundfloor/bedroom
+1755024517: Sending SUBACK to C0
+1755024518: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024518: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024518: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024522: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024522: Client C0 closed its connection.
+1755024528: New connection from 127.0.0.1:49906 on port 1883.
+1755024528: New client connected from 127.0.0.1:49906 as C0 (p2, c1, k60).
+1755024528: No will message specified.
+1755024528: Sending CONNACK to C0 (0, 0)
+1755024528: Received SUBSCRIBE from C0
+1755024528: 	groundfloor/bedroom (QoS 0)
+1755024528: C0 0 groundfloor/bedroom
+1755024528: Sending SUBACK to C0
+1755024529: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024529: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024529: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024532: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024533: Client C0 closed its connection.
+1755024539: New connection from 127.0.0.1:47890 on port 1883.
+1755024539: New client connected from 127.0.0.1:47890 as C0 (p2, c1, k60).
+1755024539: No will message specified.
+1755024539: Sending CONNACK to C0 (0, 0)
+1755024539: Received SUBSCRIBE from C0
+1755024539: 	groundfloor/bedroom (QoS 0)
+1755024539: C0 0 groundfloor/bedroom
+1755024539: Sending SUBACK to C0
+1755024540: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024540: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024540: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024542: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024544: Client C0 closed its connection.
+1755024550: New connection from 127.0.0.1:46924 on port 1883.
+1755024550: New client connected from 127.0.0.1:46924 as C0 (p2, c1, k60).
+1755024550: No will message specified.
+1755024550: Sending CONNACK to C0 (0, 0)
+1755024550: Received SUBSCRIBE from C0
+1755024550: 	groundfloor/bedroom (QoS 0)
+1755024550: C0 0 groundfloor/bedroom
+1755024550: Sending SUBACK to C0
+1755024551: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024551: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024551: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024552: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024555: Client C0 closed its connection.
+1755024561: New connection from 127.0.0.1:58326 on port 1883.
+1755024561: New client connected from 127.0.0.1:58326 as C0 (p2, c1, k60).
+1755024561: No will message specified.
+1755024561: Sending CONNACK to C0 (0, 0)
+1755024561: Received SUBSCRIBE from C0
+1755024561: 	groundfloor/bedroom (QoS 0)
+1755024561: C0 0 groundfloor/bedroom
+1755024561: Sending SUBACK to C0
+1755024562: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024562: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024562: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024562: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024566: Client C0 closed its connection.
+1755024572: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024572: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024572: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024572: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024572: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024572: New connection from 127.0.0.1:53972 on port 1883.
+1755024572: New client connected from 127.0.0.1:53972 as C0 (p2, c1, k60).
+1755024572: No will message specified.
+1755024572: Sending CONNACK to C0 (0, 0)
+1755024572: Received SUBSCRIBE from C0
+1755024572: 	groundfloor/bedroom (QoS 0)
+1755024572: C0 0 groundfloor/bedroom
+1755024572: Sending SUBACK to C0
+1755024573: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024573: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024573: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024577: Client C0 closed its connection.
+1755024582: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024583: New connection from 127.0.0.1:55244 on port 1883.
+1755024583: New client connected from 127.0.0.1:55244 as C0 (p2, c1, k60).
+1755024583: No will message specified.
+1755024583: Sending CONNACK to C0 (0, 0)
+1755024583: Received SUBSCRIBE from C0
+1755024583: 	groundfloor/bedroom (QoS 0)
+1755024583: C0 0 groundfloor/bedroom
+1755024583: Sending SUBACK to C0
+1755024584: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024584: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024584: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024588: Client C0 closed its connection.
+1755024592: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024594: New connection from 127.0.0.1:52676 on port 1883.
+1755024594: New client connected from 127.0.0.1:52676 as C0 (p2, c1, k60).
+1755024594: No will message specified.
+1755024594: Sending CONNACK to C0 (0, 0)
+1755024594: Received SUBSCRIBE from C0
+1755024594: 	groundfloor/bedroom (QoS 0)
+1755024594: C0 0 groundfloor/bedroom
+1755024594: Sending SUBACK to C0
+1755024595: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024595: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024595: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024599: Client C0 closed its connection.
+1755024602: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024605: New connection from 127.0.0.1:51710 on port 1883.
+1755024605: New client connected from 127.0.0.1:51710 as C0 (p2, c1, k60).
+1755024605: No will message specified.
+1755024605: Sending CONNACK to C0 (0, 0)
+1755024605: Received SUBSCRIBE from C0
+1755024605: 	groundfloor/bedroom (QoS 0)
+1755024605: C0 0 groundfloor/bedroom
+1755024605: Sending SUBACK to C0
+1755024606: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024606: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024606: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024610: Client C0 closed its connection.
+1755024612: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024616: New connection from 127.0.0.1:46540 on port 1883.
+1755024616: New client connected from 127.0.0.1:46540 as C0 (p2, c1, k60).
+1755024616: No will message specified.
+1755024616: Sending CONNACK to C0 (0, 0)
+1755024616: Received SUBSCRIBE from C0
+1755024616: 	groundfloor/bedroom (QoS 0)
+1755024616: C0 0 groundfloor/bedroom
+1755024616: Sending SUBACK to C0
+1755024617: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024617: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024617: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024621: Client C0 closed its connection.
+1755024622: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024628: New connection from 127.0.0.1:47836 on port 1883.
+1755024628: New client connected from 127.0.0.1:47836 as C0 (p2, c1, k60).
+1755024628: No will message specified.
+1755024628: Sending CONNACK to C0 (0, 0)
+1755024628: Received SUBSCRIBE from C0
+1755024628: 	groundfloor/bedroom (QoS 0)
+1755024628: C0 0 groundfloor/bedroom
+1755024628: Sending SUBACK to C0
+1755024629: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024629: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024629: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024632: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024632: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024632: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024632: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024632: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024633: Client C0 closed its connection.
+1755024639: New connection from 127.0.0.1:56876 on port 1883.
+1755024639: New client connected from 127.0.0.1:56876 as C0 (p2, c1, k60).
+1755024639: No will message specified.
+1755024639: Sending CONNACK to C0 (0, 0)
+1755024639: Received SUBSCRIBE from C0
+1755024639: 	groundfloor/bedroom (QoS 0)
+1755024639: C0 0 groundfloor/bedroom
+1755024639: Sending SUBACK to C0
+1755024640: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024640: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024640: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024642: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024644: Client C0 closed its connection.
+1755024650: New connection from 127.0.0.1:57280 on port 1883.
+1755024650: New client connected from 127.0.0.1:57280 as C0 (p2, c1, k60).
+1755024650: No will message specified.
+1755024650: Sending CONNACK to C0 (0, 0)
+1755024650: Received SUBSCRIBE from C0
+1755024650: 	groundfloor/bedroom (QoS 0)
+1755024650: C0 0 groundfloor/bedroom
+1755024650: Sending SUBACK to C0
+1755024651: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024651: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024651: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024652: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024655: Client C0 closed its connection.
+1755024661: New connection from 127.0.0.1:55564 on port 1883.
+1755024661: New client connected from 127.0.0.1:55564 as C0 (p2, c1, k60).
+1755024661: No will message specified.
+1755024661: Sending CONNACK to C0 (0, 0)
+1755024661: Received SUBSCRIBE from C0
+1755024661: 	groundfloor/bedroom (QoS 0)
+1755024661: C0 0 groundfloor/bedroom
+1755024661: Sending SUBACK to C0
+1755024662: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024662: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024662: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024662: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024666: Client C0 closed its connection.
+1755024672: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024672: New connection from 127.0.0.1:36168 on port 1883.
+1755024672: New client connected from 127.0.0.1:36168 as C0 (p2, c1, k60).
+1755024672: No will message specified.
+1755024672: Sending CONNACK to C0 (0, 0)
+1755024672: Received SUBSCRIBE from C0
+1755024672: 	groundfloor/bedroom (QoS 0)
+1755024672: C0 0 groundfloor/bedroom
+1755024672: Sending SUBACK to C0
+1755024673: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024673: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024673: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024677: Client C0 closed its connection.
+1755024682: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024683: New connection from 127.0.0.1:43764 on port 1883.
+1755024683: New client connected from 127.0.0.1:43764 as C0 (p2, c1, k60).
+1755024683: No will message specified.
+1755024683: Sending CONNACK to C0 (0, 0)
+1755024683: Received SUBSCRIBE from C0
+1755024683: 	groundfloor/bedroom (QoS 0)
+1755024683: C0 0 groundfloor/bedroom
+1755024683: Sending SUBACK to C0
+1755024684: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024684: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024684: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024688: Client C0 closed its connection.
+1755024692: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024692: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024692: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024692: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024692: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024694: New connection from 127.0.0.1:54666 on port 1883.
+1755024694: New client connected from 127.0.0.1:54666 as C0 (p2, c1, k60).
+1755024694: No will message specified.
+1755024694: Sending CONNACK to C0 (0, 0)
+1755024694: Received SUBSCRIBE from C0
+1755024694: 	groundfloor/bedroom (QoS 0)
+1755024694: C0 0 groundfloor/bedroom
+1755024694: Sending SUBACK to C0
+1755024695: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024695: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024695: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024699: Client C0 closed its connection.
+1755024702: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024705: New connection from 127.0.0.1:48290 on port 1883.
+1755024705: New client connected from 127.0.0.1:48290 as C0 (p2, c1, k60).
+1755024705: No will message specified.
+1755024705: Sending CONNACK to C0 (0, 0)
+1755024705: Received SUBSCRIBE from C0
+1755024705: 	groundfloor/bedroom (QoS 0)
+1755024705: C0 0 groundfloor/bedroom
+1755024705: Sending SUBACK to C0
+1755024706: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024706: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024706: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024710: Client C0 closed its connection.
+1755024712: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024716: New connection from 127.0.0.1:44324 on port 1883.
+1755024716: New client connected from 127.0.0.1:44324 as C0 (p2, c1, k60).
+1755024716: No will message specified.
+1755024716: Sending CONNACK to C0 (0, 0)
+1755024716: Received SUBSCRIBE from C0
+1755024716: 	groundfloor/bedroom (QoS 0)
+1755024716: C0 0 groundfloor/bedroom
+1755024716: Sending SUBACK to C0
+1755024717: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024717: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024717: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024721: Client C0 closed its connection.
+1755024722: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024727: New connection from 127.0.0.1:58290 on port 1883.
+1755024727: New client connected from 127.0.0.1:58290 as C0 (p2, c1, k60).
+1755024727: No will message specified.
+1755024727: Sending CONNACK to C0 (0, 0)
+1755024727: Received SUBSCRIBE from C0
+1755024727: 	groundfloor/bedroom (QoS 0)
+1755024727: C0 0 groundfloor/bedroom
+1755024727: Sending SUBACK to C0
+1755024728: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024728: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024728: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024732: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024732: Client C0 closed its connection.
+1755024738: New connection from 127.0.0.1:50362 on port 1883.
+1755024738: New client connected from 127.0.0.1:50362 as C0 (p2, c1, k60).
+1755024738: No will message specified.
+1755024738: Sending CONNACK to C0 (0, 0)
+1755024738: Received SUBSCRIBE from C0
+1755024738: 	groundfloor/bedroom (QoS 0)
+1755024738: C0 0 groundfloor/bedroom
+1755024738: Sending SUBACK to C0
+1755024739: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024739: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024739: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024742: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024743: Client C0 closed its connection.
+1755024752: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024752: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024752: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024752: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024752: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024755: New connection from 127.0.0.1:56096 on port 1883.
+1755024755: New client connected from 127.0.0.1:56096 as C0 (p2, c1, k60).
+1755024755: No will message specified.
+1755024755: Sending CONNACK to C0 (0, 0)
+1755024755: Received SUBSCRIBE from C0
+1755024755: 	groundfloor/bedroom (QoS 0)
+1755024755: C0 0 groundfloor/bedroom
+1755024755: Sending SUBACK to C0
+1755024756: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024756: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024756: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024760: Client C0 closed its connection.
+1755024762: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024766: New connection from 127.0.0.1:52428 on port 1883.
+1755024766: New client connected from 127.0.0.1:52428 as C0 (p2, c1, k60).
+1755024766: No will message specified.
+1755024766: Sending CONNACK to C0 (0, 0)
+1755024766: Received SUBSCRIBE from C0
+1755024766: 	groundfloor/bedroom (QoS 0)
+1755024766: C0 0 groundfloor/bedroom
+1755024766: Sending SUBACK to C0
+1755024767: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024767: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024767: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024771: Client C0 closed its connection.
+1755024772: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024777: New connection from 127.0.0.1:45540 on port 1883.
+1755024777: New client connected from 127.0.0.1:45540 as C0 (p2, c1, k60).
+1755024777: No will message specified.
+1755024777: Sending CONNACK to C0 (0, 0)
+1755024777: Received SUBSCRIBE from C0
+1755024777: 	groundfloor/bedroom (QoS 0)
+1755024777: C0 0 groundfloor/bedroom
+1755024777: Sending SUBACK to C0
+1755024778: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024778: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024778: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024781: Client C0 closed its connection.
+1755024782: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024792: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024802: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024812: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024812: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024812: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024812: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024812: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024822: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024832: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024842: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024852: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024862: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024864: New connection from 127.0.0.1:58164 on port 1883.
+1755024864: New client connected from 127.0.0.1:58164 as C0 (p2, c1, k60).
+1755024864: No will message specified.
+1755024864: Sending CONNACK to C0 (0, 0)
+1755024864: Received SUBSCRIBE from C0
+1755024864: 	groundfloor/bedroom (QoS 0)
+1755024864: C0 0 groundfloor/bedroom
+1755024864: Sending SUBACK to C0
+1755024865: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024865: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024865: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024869: Client C0 closed its connection.
+1755024872: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024872: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024872: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024872: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024872: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024882: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024892: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024902: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024912: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024914: New connection from 127.0.0.1:37198 on port 1883.
+1755024914: New client connected from 127.0.0.1:37198 as C0 (p2, c1, k60).
+1755024914: No will message specified.
+1755024914: Sending CONNACK to C0 (0, 0)
+1755024914: Received SUBSCRIBE from C0
+1755024914: 	groundfloor/bedroom (QoS 0)
+1755024914: C0 0 groundfloor/bedroom
+1755024914: Sending SUBACK to C0
+1755024915: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024915: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024915: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024919: Client C0 closed its connection.
+1755024922: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024925: New connection from 127.0.0.1:54724 on port 1883.
+1755024925: New client connected from 127.0.0.1:54724 as C0 (p2, c1, k60).
+1755024925: No will message specified.
+1755024925: Sending CONNACK to C0 (0, 0)
+1755024925: Received SUBSCRIBE from C0
+1755024925: 	groundfloor/bedroom (QoS 0)
+1755024925: C0 0 groundfloor/bedroom
+1755024925: Sending SUBACK to C0
+1755024926: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024926: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024926: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024930: Client C0 closed its connection.
+1755024932: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024932: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024932: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024932: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024932: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024936: New connection from 127.0.0.1:44804 on port 1883.
+1755024936: New client connected from 127.0.0.1:44804 as C0 (p2, c1, k60).
+1755024936: No will message specified.
+1755024936: Sending CONNACK to C0 (0, 0)
+1755024936: Received SUBSCRIBE from C0
+1755024936: 	groundfloor/bedroom (QoS 0)
+1755024936: C0 0 groundfloor/bedroom
+1755024936: Sending SUBACK to C0
+1755024937: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024937: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024937: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024941: Client C0 closed its connection.
+1755024942: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024947: New connection from 127.0.0.1:53062 on port 1883.
+1755024947: New client connected from 127.0.0.1:53062 as C0 (p2, c1, k60).
+1755024947: No will message specified.
+1755024947: Sending CONNACK to C0 (0, 0)
+1755024947: Received SUBSCRIBE from C0
+1755024947: 	groundfloor/bedroom (QoS 0)
+1755024947: C0 0 groundfloor/bedroom
+1755024947: Sending SUBACK to C0
+1755024948: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024948: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024948: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024952: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024952: Client C0 closed its connection.
+1755024958: New connection from 127.0.0.1:42326 on port 1883.
+1755024958: New client connected from 127.0.0.1:42326 as C0 (p2, c1, k60).
+1755024958: No will message specified.
+1755024958: Sending CONNACK to C0 (0, 0)
+1755024958: Received SUBSCRIBE from C0
+1755024958: 	groundfloor/bedroom (QoS 0)
+1755024958: C0 0 groundfloor/bedroom
+1755024958: Sending SUBACK to C0
+1755024959: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024959: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024959: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024962: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024963: Client C0 closed its connection.
+1755024969: New connection from 127.0.0.1:38632 on port 1883.
+1755024969: New client connected from 127.0.0.1:38632 as C0 (p2, c1, k60).
+1755024969: No will message specified.
+1755024969: Sending CONNACK to C0 (0, 0)
+1755024969: Received SUBSCRIBE from C0
+1755024969: 	groundfloor/bedroom (QoS 0)
+1755024969: C0 0 groundfloor/bedroom
+1755024969: Sending SUBACK to C0
+1755024970: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024970: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024970: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024972: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024974: Client C0 closed its connection.
+1755024980: New connection from 127.0.0.1:44210 on port 1883.
+1755024980: New client connected from 127.0.0.1:44210 as C0 (p2, c1, k60).
+1755024980: No will message specified.
+1755024980: Sending CONNACK to C0 (0, 0)
+1755024980: Received SUBSCRIBE from C0
+1755024980: 	groundfloor/bedroom (QoS 0)
+1755024980: C0 0 groundfloor/bedroom
+1755024980: Sending SUBACK to C0
+1755024981: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024981: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024981: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024982: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024985: Client C0 closed its connection.
+1755024991: New connection from 127.0.0.1:46190 on port 1883.
+1755024991: New client connected from 127.0.0.1:46190 as C0 (p2, c1, k60).
+1755024991: No will message specified.
+1755024991: Sending CONNACK to C0 (0, 0)
+1755024991: Received SUBSCRIBE from C0
+1755024991: 	groundfloor/bedroom (QoS 0)
+1755024991: C0 0 groundfloor/bedroom
+1755024991: Sending SUBACK to C0
+1755024992: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755024992: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755024992: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755024992: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755024992: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755024992: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024992: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024992: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755024996: Client C0 closed its connection.
+1755025002: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025002: New connection from 127.0.0.1:45514 on port 1883.
+1755025002: New client connected from 127.0.0.1:45514 as C0 (p2, c1, k60).
+1755025002: No will message specified.
+1755025002: Sending CONNACK to C0 (0, 0)
+1755025002: Received SUBSCRIBE from C0
+1755025002: 	groundfloor/bedroom (QoS 0)
+1755025002: C0 0 groundfloor/bedroom
+1755025002: Sending SUBACK to C0
+1755025003: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025003: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025003: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025007: Client C0 closed its connection.
+1755025012: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025013: New connection from 127.0.0.1:40640 on port 1883.
+1755025013: New client connected from 127.0.0.1:40640 as C0 (p2, c1, k60).
+1755025013: No will message specified.
+1755025013: Sending CONNACK to C0 (0, 0)
+1755025013: Received SUBSCRIBE from C0
+1755025013: 	groundfloor/bedroom (QoS 0)
+1755025013: C0 0 groundfloor/bedroom
+1755025013: Sending SUBACK to C0
+1755025014: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025014: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025014: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025018: Client C0 closed its connection.
+1755025022: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025024: New connection from 127.0.0.1:56342 on port 1883.
+1755025024: New client connected from 127.0.0.1:56342 as C0 (p2, c1, k60).
+1755025024: No will message specified.
+1755025024: Sending CONNACK to C0 (0, 0)
+1755025024: Received SUBSCRIBE from C0
+1755025024: 	groundfloor/bedroom (QoS 0)
+1755025024: C0 0 groundfloor/bedroom
+1755025024: Sending SUBACK to C0
+1755025025: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025025: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025025: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025029: Client C0 closed its connection.
+1755025032: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025035: New connection from 127.0.0.1:41066 on port 1883.
+1755025035: New client connected from 127.0.0.1:41066 as C0 (p2, c1, k60).
+1755025035: No will message specified.
+1755025035: Sending CONNACK to C0 (0, 0)
+1755025035: Received SUBSCRIBE from C0
+1755025035: 	groundfloor/bedroom (QoS 0)
+1755025035: C0 0 groundfloor/bedroom
+1755025035: Sending SUBACK to C0
+1755025036: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025036: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025036: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025040: Client C0 closed its connection.
+1755025042: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025047: New connection from 127.0.0.1:55176 on port 1883.
+1755025047: New client connected from 127.0.0.1:55176 as C0 (p2, c1, k60).
+1755025047: No will message specified.
+1755025047: Sending CONNACK to C0 (0, 0)
+1755025047: Received SUBSCRIBE from C0
+1755025047: 	groundfloor/bedroom (QoS 0)
+1755025047: C0 0 groundfloor/bedroom
+1755025047: Sending SUBACK to C0
+1755025048: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025048: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025048: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025052: Client C0 closed its connection.
+1755025052: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025052: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025052: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025052: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025052: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025058: New connection from 127.0.0.1:50346 on port 1883.
+1755025058: New client connected from 127.0.0.1:50346 as C0 (p2, c1, k60).
+1755025058: No will message specified.
+1755025058: Sending CONNACK to C0 (0, 0)
+1755025058: Received SUBSCRIBE from C0
+1755025058: 	groundfloor/bedroom (QoS 0)
+1755025058: C0 0 groundfloor/bedroom
+1755025058: Sending SUBACK to C0
+1755025059: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025059: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025059: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025062: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025063: Client C0 closed its connection.
+1755025069: New connection from 127.0.0.1:56636 on port 1883.
+1755025069: New client connected from 127.0.0.1:56636 as C0 (p2, c1, k60).
+1755025069: No will message specified.
+1755025069: Sending CONNACK to C0 (0, 0)
+1755025069: Received SUBSCRIBE from C0
+1755025069: 	groundfloor/bedroom (QoS 0)
+1755025069: C0 0 groundfloor/bedroom
+1755025069: Sending SUBACK to C0
+1755025070: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025070: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025070: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025072: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025074: Client C0 closed its connection.
+1755025080: New connection from 127.0.0.1:56268 on port 1883.
+1755025080: New client connected from 127.0.0.1:56268 as C0 (p2, c1, k60).
+1755025080: No will message specified.
+1755025080: Sending CONNACK to C0 (0, 0)
+1755025080: Received SUBSCRIBE from C0
+1755025080: 	groundfloor/bedroom (QoS 0)
+1755025080: C0 0 groundfloor/bedroom
+1755025080: Sending SUBACK to C0
+1755025081: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025081: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025081: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025082: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025085: Client C0 closed its connection.
+1755025091: New connection from 127.0.0.1:32978 on port 1883.
+1755025091: New client connected from 127.0.0.1:32978 as C0 (p2, c1, k60).
+1755025091: No will message specified.
+1755025091: Sending CONNACK to C0 (0, 0)
+1755025091: Received SUBSCRIBE from C0
+1755025091: 	groundfloor/bedroom (QoS 0)
+1755025091: C0 0 groundfloor/bedroom
+1755025091: Sending SUBACK to C0
+1755025092: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025092: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025092: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025092: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025096: Client C0 closed its connection.
+1755025102: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025102: New connection from 127.0.0.1:56448 on port 1883.
+1755025102: New client connected from 127.0.0.1:56448 as C0 (p2, c1, k60).
+1755025102: No will message specified.
+1755025102: Sending CONNACK to C0 (0, 0)
+1755025102: Received SUBSCRIBE from C0
+1755025102: 	groundfloor/bedroom (QoS 0)
+1755025102: C0 0 groundfloor/bedroom
+1755025102: Sending SUBACK to C0
+1755025103: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025103: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025103: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025107: Client C0 closed its connection.
+1755025112: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025112: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025112: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025112: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025112: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025113: New connection from 127.0.0.1:54768 on port 1883.
+1755025113: New client connected from 127.0.0.1:54768 as C0 (p2, c1, k60).
+1755025113: No will message specified.
+1755025113: Sending CONNACK to C0 (0, 0)
+1755025113: Received SUBSCRIBE from C0
+1755025113: 	groundfloor/bedroom (QoS 0)
+1755025113: C0 0 groundfloor/bedroom
+1755025113: Sending SUBACK to C0
+1755025114: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025114: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025114: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025118: Client C0 closed its connection.
+1755025122: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025124: New connection from 127.0.0.1:42380 on port 1883.
+1755025124: New client connected from 127.0.0.1:42380 as C0 (p2, c1, k60).
+1755025124: No will message specified.
+1755025124: Sending CONNACK to C0 (0, 0)
+1755025124: Received SUBSCRIBE from C0
+1755025124: 	groundfloor/bedroom (QoS 0)
+1755025124: C0 0 groundfloor/bedroom
+1755025124: Sending SUBACK to C0
+1755025125: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025125: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025125: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025129: Client C0 closed its connection.
+1755025132: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025135: New connection from 127.0.0.1:46094 on port 1883.
+1755025135: New client connected from 127.0.0.1:46094 as C0 (p2, c1, k60).
+1755025135: No will message specified.
+1755025135: Sending CONNACK to C0 (0, 0)
+1755025135: Received SUBSCRIBE from C0
+1755025135: 	groundfloor/bedroom (QoS 0)
+1755025135: C0 0 groundfloor/bedroom
+1755025135: Sending SUBACK to C0
+1755025136: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025136: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025136: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025140: Client C0 closed its connection.
+1755025142: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025152: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025156: New connection from 127.0.0.1:54260 on port 1883.
+1755025156: New client connected from 127.0.0.1:54260 as C0 (p2, c1, k60).
+1755025156: No will message specified.
+1755025156: Sending CONNACK to C0 (0, 0)
+1755025156: Received SUBSCRIBE from C0
+1755025156: 	groundfloor/bedroom (QoS 0)
+1755025156: C0 0 groundfloor/bedroom
+1755025156: Sending SUBACK to C0
+1755025157: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025157: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025157: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025161: Client C0 closed its connection.
+1755025162: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025171: New connection from 127.0.0.1:57880 on port 1883.
+1755025171: New client connected from 127.0.0.1:57880 as C0 (p2, c1, k60).
+1755025171: No will message specified.
+1755025171: Sending CONNACK to C0 (0, 0)
+1755025171: Received SUBSCRIBE from C0
+1755025171: 	groundfloor/bedroom (QoS 0)
+1755025171: C0 0 groundfloor/bedroom
+1755025171: Sending SUBACK to C0
+1755025172: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025172: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025172: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025172: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025172: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025172: Received PUBLISH from C0 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025172: Sending PUBLISH to local.dhruvubuntu.b0_to_b1 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025172: Sending PUBLISH to local.dhruvubuntu.b0_to_b2 (d0, q0, r0, m0, 'groundfloor/kitchen', ... (190 bytes))
+1755025176: Client C0 closed its connection.
+1755025182: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025192: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025202: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025212: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025222: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025232: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025232: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025232: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025232: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025232: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025242: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025252: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025262: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025272: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025282: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025292: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025292: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025292: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025292: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025292: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025302: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025312: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025322: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025332: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025342: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025352: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025352: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025352: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025352: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025352: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025362: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025372: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025382: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025392: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025402: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025412: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025412: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025412: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025412: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025412: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025422: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025432: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025442: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025452: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025462: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025472: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025472: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025472: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025472: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025472: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025482: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025492: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025502: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025512: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025522: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025532: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025532: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025532: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025532: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025532: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025542: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025552: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025562: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025572: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025582: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025592: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025592: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025592: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025592: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025592: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025602: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025612: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025622: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025632: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025642: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025652: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025652: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025652: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025652: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025652: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025662: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025672: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025682: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025692: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025702: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025712: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025712: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025712: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025712: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025712: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025722: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025732: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025742: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025752: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025762: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025772: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025772: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025772: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025772: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025772: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025782: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025792: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025802: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025812: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025822: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025832: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025832: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025832: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025832: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025832: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025842: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025852: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025862: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025872: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025882: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025892: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025892: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025892: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025892: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025892: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025902: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025912: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025922: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025932: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025942: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025952: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025952: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755025952: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755025952: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755025952: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755025962: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025972: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025982: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755025992: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026002: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026012: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026012: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755026012: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755026012: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755026012: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755026022: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026032: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026042: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026052: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026062: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026072: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026072: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755026072: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755026072: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755026072: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755026082: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026092: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026102: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026112: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026122: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026132: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026132: Sending PINGREQ to local.dhruvubuntu.b0_to_b1
+1755026132: Sending PINGREQ to local.dhruvubuntu.b0_to_b2
+1755026132: Received PINGRESP from local.dhruvubuntu.b0_to_b1
+1755026132: Received PINGRESP from local.dhruvubuntu.b0_to_b2
+1755026142: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026152: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026162: [PLUGIN][B0] [REFRESH] Periodic map refresh triggered.
+1755026167: Client local.dhruvubuntu.b0_to_b1 closed its connection.
+1755026167: mosquitto version 2.0.21 terminating
+1755026167: [PLUGIN][B0] --- Trust-based plugin shutting down ---
+1755026167: mosquitto version 2.0.21 terminating
+1755026167: [PLUGIN][B0] --- Trust-based plugin shutting down ---

@@ -1,0 +1,2 @@
+# Local trust data held by B0
+# Format: source_broker,r_value,s_value
