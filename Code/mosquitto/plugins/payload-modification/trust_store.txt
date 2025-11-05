@@ -1,0 +1,1 @@
+# Trust data format: source_broker,target_broker,r_value,s_value

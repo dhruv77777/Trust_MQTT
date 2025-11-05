@@ -1,0 +1,617 @@
+===== Iteration 1 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.917
+
+===== Iteration 1 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.647
+------------------------------------------------------------
+===== Iteration 2 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.778
+
+===== Iteration 2 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.656
+------------------------------------------------------------
+===== Iteration 3 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.738
+
+===== Iteration 3 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.660
+------------------------------------------------------------
+===== Iteration 4 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.719
+
+===== Iteration 4 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.661
+------------------------------------------------------------
+===== Iteration 5 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.708
+
+===== Iteration 5 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.662
+------------------------------------------------------------
+===== Iteration 6 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.698
+
+===== Iteration 6 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.663
+------------------------------------------------------------
+===== Iteration 7 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.696
+
+===== Iteration 7 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.664
+------------------------------------------------------------
+===== Iteration 8 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.692
+
+===== Iteration 8 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.664
+------------------------------------------------------------
+===== Iteration 9 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.687
+
+===== Iteration 9 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.664
+------------------------------------------------------------
+===== Iteration 10 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.687
+
+===== Iteration 10 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.664
+------------------------------------------------------------
+===== Iteration 11 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.685
+
+===== Iteration 11 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 12 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.684
+
+===== Iteration 12 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 13 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.682
+
+===== Iteration 13 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 14 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.681
+
+===== Iteration 14 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 15 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.680
+
+===== Iteration 15 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 16 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.679
+
+===== Iteration 16 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 17 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.677
+
+===== Iteration 17 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 18 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.678
+
+===== Iteration 18 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.665
+------------------------------------------------------------
+===== Iteration 19 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.677
+
+===== Iteration 19 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.666
+------------------------------------------------------------
+===== Iteration 20 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.677
+
+===== Iteration 20 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.666
+------------------------------------------------------------
+===== Iteration 21 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.676
+
+===== Iteration 21 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.666
+------------------------------------------------------------
+
+
+
+
+//////////////////////////////////////////////////////////////
+===== Iteration 1 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.857
+
+===== Iteration 1 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 2 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.625
+
+===== Iteration 2 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 3 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.593
+
+===== Iteration 3 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 4 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.568
+
+===== Iteration 4 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 5 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.553
+
+===== Iteration 5 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 6 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.544
+
+===== Iteration 6 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 7 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.530
+
+===== Iteration 7 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 8 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.532
+
+===== Iteration 8 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 9 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.529
+
+===== Iteration 9 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 10 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.526
+
+===== Iteration 10 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 11 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.523
+
+===== Iteration 11 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 12 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.517
+
+===== Iteration 12 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 13 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.520
+
+===== Iteration 13 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.500
+------------------------------------------------------------
+===== Iteration 1 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.833
+
+===== Iteration 1 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 2 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 2 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 3 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 3 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 4 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 4 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 5 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 5 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 6 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 6 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 7 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 7 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 8 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 8 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 9 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 9 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 10 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 10 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 11 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 11 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 12 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 12 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 13 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 13 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 14 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 14 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 15 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 15 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 16 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 16 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 17 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 17 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 18 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 18 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 19 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 19 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 20 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 20 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 21 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 21 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 22 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 22 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 23 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 23 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 24 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 24 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 25 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 25 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 26 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 26 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 27 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 27 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 28 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 28 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 29 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 29 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 30 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 30 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 31 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 31 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 32 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 32 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 33 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 33 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 34 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 34 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 35 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 35 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 36 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 36 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 37 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 37 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 38 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 38 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 39 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 39 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 40 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 40 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 41 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 41 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 42 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 42 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 43 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 43 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 44 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 44 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 45 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 45 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 46 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 46 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 47 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 47 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 48 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 48 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 49 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 49 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 50 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 50 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 51 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 51 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 52 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 52 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 53 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 53 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 54 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 54 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 55 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 55 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 56 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 56 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 57 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 57 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 58 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 58 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 59 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 59 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 60 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 60 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 61 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 61 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 62 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 62 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 63 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 63 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 64 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 64 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 65 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 65 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 66 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 66 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 67 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 67 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------
+===== Iteration 68 - Network Map BEFORE Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+
+===== Iteration 68 - Network Map AFTER Step 2 (B4,B6 lines only) =====
+B4,B6,0.455
+------------------------------------------------------------

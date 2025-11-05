@@ -1,0 +1,58 @@
+# --- Ground Floor: B0 (C0,C1), B7 (C14,C15) ---
+
+C0 PUB floor/ground/client0
+C0 SUB floor/ground/client1     # subscribe to C1 on same floor (no self-sub)
+
+C1 PUB floor/ground/client1
+C1 SUB floor/ground/client0     # subscribe to C0 on same floor
+
+C14 PUB floor/7th/client14
+C14 SUB floor/7th/client15     # subscribe to C15 on 7th floor
+
+C15 PUB floor/7th/client15
+C15 SUB floor/7th/client14     # subscribe to C14 on 7th floor
+
+
+# --- First Floor: B1 (C2,C3), B3 (C6,C7) ---
+
+C2 PUB floor/first/client2
+C2 SUB floor/first/client3     # subscribe to C3
+
+C3 PUB floor/first/client3
+C3 SUB floor/first/client2     # subscribe to C2
+
+C6 PUB floor/first/client6
+C6 SUB floor/first/client7     # subscribe to C7
+
+C7 PUB floor/first/client7
+C7 SUB floor/first/client6     # subscribe to C6
+
+
+# --- Second Floor: B2 (C4,C5), B6 (C12,C13) ---
+
+C4 PUB floor/second/client4
+C4 SUB floor/second/client5     # subscribe to C5
+
+C5 PUB floor/second/client5
+C5 SUB floor/second/client4     # subscribe to C4
+
+C12 PUB floor/second/client12
+C12 SUB floor/second/client13   # subscribe to C13
+
+C13 PUB floor/second/client13
+C13 SUB floor/second/client12   # subscribe to C12
+
+
+# --- Third Floor: B4 (C8,C9), B5 (C10,C11) ---
+
+C8 PUB floor/third/client8
+C8 SUB floor/third/client9      # subscribe to C9
+
+C9 PUB floor/third/client9
+C9 SUB floor/third/client8      # subscribe to C8
+
+C10 PUB floor/third/client10
+C10 SUB floor/third/client11    # subscribe to C11
+
+C11 PUB floor/third/client11
+C11 SUB floor/third/client10    # subscribe to C10
